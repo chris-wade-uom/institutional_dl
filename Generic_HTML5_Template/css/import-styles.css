@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700); /* Must be declared on first line of all CSS files */
+/* Standards created by Stuart Anderson FSE elearning team */
+
+@charset "utf-8";
+/* CSS Document */
+@import url("template-styles/base-styles.css");
+@import url("template-styles/theme-base-styles.css");
+@import url("template-styles/theme-custom-styles.css");
+@import url("template-styles/util-styles.css");
+
+@import url("template-styles/box-styles.css");
+
+@import url("icon-packs/basic/icon-pack-basic.css");
+
+@import url("template-styles/theme-menu-styles.css");
+
+/*@import url("https://online.manchester.ac.uk/bbcswebdav/xid-14996631_1");*/

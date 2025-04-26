@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**
+ ** TABLE LAYOUTS
+ **/
+
+table th,
+table thead th,
+table thead td  {
+	text-align: left;
+	padding: 3px 5px;
+}
+
+table.book-reference {
+	border-collapse: collapse;
+	min-width: 40%;
+}
+table.book-reference thead th,
+table.book-reference thead td  {
+	padding: 5px;
+	margin: 3px 0;
+	background-color: #CACACA;
+}
+table.book-reference td {
+	padding: 3px;
+	background-color: #EEE;
+}
+table.book-reference th,
+table.book-reference td {
+	border: 1px solid #999;
+}
+
+table.book-reference p {
+	margin: 0;
+}

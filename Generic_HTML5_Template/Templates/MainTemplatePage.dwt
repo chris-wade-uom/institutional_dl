@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Site or Project Title</title>
+<!-- TemplateEndEditable -->
+
+<link href="../css/import-styles.css" media="all" rel="stylesheet" type="text/css" />
+<link href="../css/template-styles/theme-printview.css" media="print" rel="stylesheet" type="text/css" />
+<!-- Utility javascript to support improve user experience -->
+<script type="text/javascript" src="../js/template-scripts/utils.js"></script>
+<script type="text/javascript" src="../js/template-scripts/swfobject.js"></script>
+<script type="text/javascript" src="../js/template-scripts/html5shiv.min.js"></script>
+<!-- MathJax for equation rendering -->
+<script type="text/javascript" src="../js/template-scripts/mathjax-config.js"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!-- TemplateBeginEditable name="head" -->
+	<!-- Optional page specific script and styles can go here -->
+<!-- TemplateEndEditable -->
+
+</head>
+
+<body>
+<a href="#main-content" class="off-screen">Skip to main content</a>
+<a href="#main-navigation" class="off-screen">Skip to main navigation</a>
+<header role="banner">
+
+<!-- Optional site banner can go here -->
+<!-- TemplateBeginEditable name="site-banner" --><!-- #BeginLibraryItem "/Library/site-banner.lbi" -->
+<!-- Banner - add class style to "printonly" if need only on print version -->
+<div id="banner">
+<!-- Institutional logo - can be set to only appear in print if needed -->
+<a href="http://www.manchester.ac.uk" class="logo">
+	<img src="../images_common/logos/uom.png" />
+</a>
+<!-- Site title - a title reflecting the purpose of all the notes -->
+<h1>Your project title here</h1>
+</div>
+<!-- #EndLibraryItem --><!-- TemplateEndEditable -->
+
+<!-- Print options - include only if used in VLE/CMS iframe to improve UX -->
+<div id="options">
+<a href="#" target="_blank" class="noicon printview" onclick='return openPrintView();'>Print view</a>
+<a href="#" class="noicon print" onclick='javascript:window.print()'>Print page</a>
+</div>
+
+<!-- Optional site navigation can go here -->
+<nav role="navigation" id="main-navigation">
+<!-- TemplateBeginEditable name="main-navigation" -->
+<!-- TemplateEndEditable -->
+</nav>   
+
+</header>
+
+<main role="main" id="main-content">
+<!-- TemplateBeginEditable name="main-content" -->
+INSERT_CONTENT_HERE
+<!-- TemplateEndEditable -->
+<span class="clearfix"></span>
+</main>
+
+<footer role="contentinfo"><!-- #BeginLibraryItem "/Library/site-footer.lbi" -->
+<ul class="flatten">
+<li><a href="http://www.chemistry.manchester.ac.uk" target="_blank">School of Chemistry</a></li><li><a href="http://www.manchester.ac.uk" target="_blank">University of Manchester</a></li><script>document.writeln('<li>' + getLastModifiedDateMessage() + '</li>');</script>
+</ul><!-- #EndLibraryItem --></footer>
+</body>
+</html>

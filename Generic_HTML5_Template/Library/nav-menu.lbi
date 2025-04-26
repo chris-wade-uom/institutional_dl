@@ -1,0 +1,145 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div id="nav-menu">
+	<label for="drop" class="toggle">Menu</label>
+	<input type="checkbox" id="drop" />
+
+			<ul class="menu">
+				<li id="home" class="home"><a href="#about">Home</a></li>
+				<li>
+					 <label for="drop-home-page" class="toggle">Techniques</label>
+				      <a href="#">Techniques</a>
+				      <input type="checkbox" id="drop-home-page"/>
+					<ul>
+						<li>
+							<label for="drop-general-lab-practice" class="toggle">General Laboratory Practice</label>
+							<a href="#">General Lab Practice</a>
+							<input type="checkbox" id="drop-general-lab-practice"/>
+            				<ul>
+							<li><a href="#housekeeping">Housekeeping</a></li>
+            				<li><a href="#fumehood">Fume cupboard</a></li>
+            				<li><a href="#glc">Gas-liquid Chromatography</a></li>
+            				<li><a href="#flammables">Flammables</a></li>
+            				<li><a href="#stands_clamps">Stands and clamps</a></li>
+							</ul>
+						</li>
+						<li>
+							<label for="drop-glassware" class="toggle">Glassware</label>
+							<a href="#">Glassware</a>
+							<input type="checkbox" id="drop-glassware"/>
+
+            				<ul>
+							<li><a href="#housekeeping">Housekeeping</a></li>
+            				<li><a href="#fumehood">Fume cupboard</a></li>
+            				<li><a href="#gloves">Gloves</a></li>
+            				<li><a href="#glc">Gas-liquid Chromatography</a></li>
+            				<li><a href="#stands_clamps">Stands and clamps</a></li>
+							</ul>
+						</li>
+						<li>
+							<label for="drop-waste-disposal" class="toggle">Waste disposal</label>
+							<a href="#">Waste disposal</a>
+							<input type="checkbox" id="drop-waste-disposal"/>
+
+            				<ul>
+							<li><a href="#housekeeping">Housekeeping</a></li>
+            				<li><a href="#fumehood">Fume cupboard</a></li>
+            				<li><a href="#glc">Gas-liquid Chromatography</a></li>
+            				<li><a href="#flammables">Flammables</a></li>
+            				<li><a href="#stands_clamps">Stands and clamps</a></li>
+							</ul>
+						</li>
+						<li>
+							<label for="drop-measuring-mass" class="toggle">Measuring mass &amp; volume</label>
+							<a href="#">Measuring mass &amp; volume</a>
+							<input type="checkbox" id="drop-measuring-mass"/>
+
+            				<ul>
+							<li><a href="#housekeeping">Housekeeping</a></li>
+            				<li><a href="#fumehood">Fume cupboard</a></li>
+            				<li><a href="#glc">Gas-liquid Chromatography</a></li>
+            				<li><a href="#flammables">Flammables</a></li>
+            				<li><a href="#stands_clamps">Stands and clamps</a></li>
+							</ul>
+						</li>
+						<li>
+							<label for="drop-stirring" class="toggle">Stirring and heating</label>
+							<a href="#">Stirring and heating</a>
+							<input type="checkbox" id="drop-stirring"/>
+
+            				<ul>
+							<li><a href="#housekeeping">Housekeeping</a></li>
+            				<li><a href="#fumehood">Fume cupboard</a></li>
+            				<li><a href="#gloves">Gloves</a></li>
+            				<li><a href="#flammables">Flammables</a></li>
+            				<li><a href="#glc">Gas-liquid Chromatography</a></li>
+							</ul>
+						</li>
+						<li>
+							<label for="drop-titration" class="toggle">Titration</label>
+							<a href="#">Titration</a>
+							<input type="checkbox" id="drop-titration"/>
+
+            				<ul>
+							<li><a href="#glc">Gas-liquid Chromatography</a></li>
+							</ul>
+						</li>
+						<li>
+							<label for="drop-reaction-process" class="toggle">Reaction process</label>
+							<a href="#">Reaction process</a>
+							<input type="checkbox" id="drop-reaction-process"/>
+
+
+            				<ul>
+							<li><a href="#housekeeping">Housekeeping</a></li>
+            				<li><a href="#glc">Gas-liquid Chromatography</a></li>
+            				<li><a href="#gloves">Gloves</a></li>
+            				<li><a href="#flammables">Flammables</a></li>
+            				<li><a href="#stands_clamps">Stands and clamps</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+                <li>
+                	<label for="drop-safety" class="toggle">Safety</label>
+					<a href="#">Safety</a>
+					<input type="checkbox" id="drop-safety"/>
+
+                	<ul>
+                    	<li><a href="#vacuum">Vacuum pumps</a></li>
+            			<li><a href="#media">Media</a></li>
+						<li><a href="#vac_distil">Distillation at low pressure</a></li>
+            			<li><a href="#custom">Custom</a></li>
+					</ul>
+				</li>
+                <li>
+                	<label for="drop-data-handling" class="toggle">Data handling</label>
+					<a href="#">Data handling</a>
+					<input type="checkbox" id="drop-data-handling"/>
+
+                	<ul>
+                    	<li><a href="#layout">Layout</a></li>
+            			<li><a href="#mathematics">Mathematics</a></li>
+					</ul>
+				</li>
+                <li>
+                	<label for="drop-reporting" class="toggle">Reporting</label>
+					<a href="#">Reporting</a>
+					<input type="checkbox" id="drop-reporting"/>
+
+                	<ul>
+                    	<li><a href="#polarimetry">Polarimetry</a></li>
+            			<li><a href="#glc">Gas-liquid chromatography</a></li>
+					</ul>
+				</li>
+                <li>
+                	<label for="drop-course-links" class="toggle">Course links</label>
+					<a href="#">Course links</a>
+					<input type="checkbox" id="drop-course-links"/>
+
+                	<ul>
+                    	<li><a href="https://online.manchester.ac.uk/webapps/blackboard/execute/launcher?type=Course&id=_40638_1&url=" target="_blank">CHEM10600</a></li>
+            			<li><a href="https://online.manchester.ac.uk/webapps/blackboard/execute/launcher?type=Course&id=_40643_1&url=">CHEM22600</a></li>
+					</ul>
+				</li>
+			</ul>
+</div>

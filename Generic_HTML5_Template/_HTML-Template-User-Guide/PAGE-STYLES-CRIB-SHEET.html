@@ -1,0 +1,1696 @@
+<!DOCTYPE HTML>
+<html><!-- InstanceBegin template="/Templates/MainTemplatePage.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Page Title</title>
+<!-- InstanceEndEditable -->
+
+<link href="../css/import-styles.css" media="all" rel="stylesheet" type="text/css" />
+<link href="../css/template-styles/theme-printview.css" media="print" rel="stylesheet" type="text/css" />
+<!-- Utility javascript to support improve user experience -->
+<script type="text/javascript" src="../js/template-scripts/utils.js"></script>
+<script type="text/javascript" src="../js/template-scripts/swfobject.js"></script>
+<script type="text/javascript" src="../js/template-scripts/html5shiv.min.js"></script>
+
+
+<!-- InstanceBeginEditable name="head" -->
+<style type="text/css" media="screen">
+html {
+   overflow-y: scroll;
+}
+main nav {
+   padding: 5px;
+   background: #999;
+   text-align: center;
+   z-index: 5;    
+}
+main nav ul {
+   margin: 0;
+   padding: 0;    
+}
+main nav li {
+   color: #FFF;
+   font-weight: bold;
+}
+main nav li a:link,
+main nav li a:visited {
+   color: #FFF;    
+}
+main nav li a:hover,
+main nav li a:active, 
+main nav li a:focus, 
+main nav li.ui-state-active a {
+	background-color: transparent !important;
+	color: #FF0;
+	border-top: none;
+	border-bottom: none;
+	outline:none;
+	border-radius: 0;
+}
+
+#navtype {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:6px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+	width: 180px;
+}
+#navtype:hover {
+	background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+#navtype:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* Below Portrait tablet (mobile phones) */
+@media (max-width: 550px) { 
+	section {
+		padding-top: 40px;
+	}
+}
+/* Portrait tablet  */
+@media (min-width: 551px) { 
+	section {
+		padding-top: 30px;
+	}
+}
+
+/* Picked up by both landscape and normal and large desktops */
+@media (min-width: 979px) {
+	section {
+		padding-top: 10px;
+	}
+}
+</style>
+
+<!-- InstanceEndEditable -->
+
+</head>
+
+<body>
+<a href="#main-content" class="off-screen">Skip to main content</a>
+<a href="#main-navigation" class="off-screen">Skip to main navigation</a>
+<header role="banner">
+ 
+<!-- Optional site banner can go here -->
+<!-- InstanceBeginEditable name="site-banner" --><!-- InstanceEndEditable -->
+
+<!-- Print options - include only if used in VLE/CMS iframe to improve UX -->
+<div id="options">
+<a href="#" target="_blank" class="noicon printview" onclick='return openPrintView();'>Print view</a>
+<a href="#" class="noicon print" onclick='javascript:window.print()'>Print page</a>
+</div>
+
+<!-- Optional site navigation can go here -->
+<nav role="navigation" id="main-navigation">
+<!-- InstanceBeginEditable name="main-navigation" --><!-- InstanceEndEditable -->
+</nav>   
+
+</header>
+
+<main role="main" id="main-content">
+<!-- InstanceBeginEditable name="main-content" -->
+<div id="tabs">
+    <nav role="navigation">
+        <ul class="flatten">
+        	<li id="home"><a href="#about">About</a></li>
+            <li><a href="#text">Text</a></li>
+            <li><a href="#lists">Lists</a></li>
+            <li><a href="#tables">Tables</a></li>
+            <li><a href="#callouts">Callout boxes</a></li>
+            <li><a href="#figures">Figures</a></li>
+            <li><a href="#layout">Layout</a></li>
+            <li><a href="#mathematics">Mathematics</a></li>
+            <li><a href="#media">Media</a></li>
+            <li><a href="#flash">Flash</a></li>
+            <li><a href="#custom">Custom</a></li>
+        </ul>
+    </nav>
+<section role="region" id="about">
+<p>
+These notes can be viewed via a &quot;tabbed&quot; view or as a &quot;flat&quot; linear document. Toggle this button to switch between views.</p>
+<button id="navtype"></button> 
+<span class="clearfix"></span>
+
+<h2>About</h2>
+<p>This template brings together an HTML5 structure with CSS styles with the aim of supporting the development of on-line teaching notes. It aims to keep page structure  simple, but provide a strong underlying framework which will take care of providing clean presentation, many of the accessibility requirements and  <a href="https://en.wikipedia.org/wiki/Responsive_web_design">responsive behaviour</a> to allow content to display equally well on mobile, tablet and desktop screens. It does <strong>not</strong>  provide all the complex styles of a fully formed website e.g. column layouts. Key features include:</p>
+<ul>
+    <li>Clear styling of HTML5 standard elements e.g. header tags, lists, tables.</li>
+    <li>Optimisations to ensure content displays cleanly on small and large screen devices, e.g. images, tables and videos.</li>
+    <li>Optimisations to improve the user experience when content is hosted in a <a href="https://en.wikipedia.org/wiki/Content_management_system">CMS</a> / <a href="https://en.wikipedia.org/wiki/Virtual_learning_environment">VLE</a>, (see notes below).</li>
+    <li>Optimisations for accessibility and advice on good practice throughout these notes. e.g. colour contrast, links.</li>
+    <li>Libraries (pre-configured) to support the inclusion of Mathematical notation and <a href="https://en.wikipedia.org/wiki/Adobe_Flash">Flash</a>.</li>
+    <li>A small set of clean, logically designed custom styles to allow you to add enhancements to document presentation, with specific consideration given to the context of Higher Education, e.g. <a href="https://en.wikipedia.org/wiki/Callout">callout boxes</a>, list numbering formats and styling, display of code, and tabular data. Where appropriate, licences for icon packs have already been obtained.</li>
+    <li>An underlying <a href="https://en.wikipedia.org/wiki/HTML5">HTML5</a> structure which uses semantically correct tags to describe the content (important for accessibility), e.g. use of <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code> and <code>&lt;footer&gt;</code> blocks. </li>
+    </ul>
+<h3>Mobile platform support</h3>
+<p>Whilst your content may currently not be deployed on platform which is viewed on mobile devices, that might change in the future. This template attempts to take care of most of the hard work in supporting smaller screen devices. </p>
+<ul>
+    <li>Images and videos will automatically scale down to fit narrower screens. </li>
+    <li>Tables with many columns will scroll horizontally and where this occurs it is highlighted to the user to ensure data isn't accidentally missed. </li>
+    <li>Presentational &quot;callout boxes&quot; are designed to ensure they adjust to narrower screens as necessary. </li>
+    <li>Blocks of Mathematical notation will line-wrap should it not fit a narrow screen.</li>
+    </ul>
+    <p>Note that whilst advice on the inclusion of Flash based media is provided, it is noted this is not supported on mobile platforms and appropriate advice is given. Appropriate recommendations are given for other media types to help ensure good cross-platform support of content.</p>
+
+<h3>Optimisations for CMS/VLE platforms</h3>
+<p>There are two notable optimisations to improve the experience of users when documents produced from this template are presented inside a CMS/VLE.</p>
+<ul>
+    <li>This template includes a &quot;print view&quot; option to &quot;break out&quot; of any CMS/VLE content frame and present the document content with styles better suited to print media e.g. font sizing, removal of some background colours. This allows the page to then be printed without being adversely affected by framework of the CMS/VLE.</li>
+    <li> Where javascript is enabled, as the template loads, it will check to see if it is hosted inside a secure HTTPS host and will fix and problematic insecure HTTP links within the content which would otherwise fail to open due to normal browser security restrictions.</li>
+    </ul>
+<h3>Accessibility</h3>
+<p>It is important to ensure content is accessible to all users, including those who rely on assistive technologies such as screen readers. However, it need not be a burden. It is often the case that  small changes you can make to improve the accessibility of your content will benefit <em>all</em> users, not just those with additional requirements. This template aims to deal with some of these responsibilities already and this guide provide good common sense advice for everything else. Throughout this guide there are &quot;Best Practice&quot; notes  which include concise notes on what to think about to improve the accessibility of your content. We've gone to the trouble of wading through other best practise information so you don't have to.</p>
+<h3>Mathematics</h3>
+<p>Within many disciplines, the display of mathematical notation in teaching materials is a fundamental requirement. This template incorporates the <a href="https://www.mathjax.org">MathJax</a> library and has been pre-configured to suit a more common requirements of the HE environments. The configuration file is abstracted to a single external javascript file to allow changes to be made to an entire set of pages from a single place. Note that the <a href="http://www.ctan.org/pkg/mhchem">mhchem</a> extension for typesetting chemical molecular formulae and equations is not included by default, but can be easily enabled.</p>
+<h3>Technical note about this template guide</h3>
+<p>This template focuses on content tags that are most likely to be of use in the development of Teaching and Learning content. HTML5 tags which  either: (1) encourage bad  accessibility practice; (2) aren't relevant because they are designed to act as javascript hooks for richer web applications; or (3) are intended for building data forms  for submission to a server, are all <em>omitted</em> from  discussion within this guide as they are deemed not relevant.</p>
+</section>
+
+
+<section role="region" id="text">
+<h2>Text - Core text styles</h2>
+<p>These styles cover the majority of HTML elements that are used to <em>structure</em> text content and provide <em>semantic meaning</em> to the enclosed text. Using the tags <code>&lt;h1&gt;...&lt;h6&gt;</code> and <code>&lt;p&gt;</code> to structure blocks of text is a fundamental requirement in building an HTML document. Adding the semantic meaning to documents can allow other technologies to make use of this underlying information and automatically generate elements such as content lists.</p>
+
+<h3>Header titles</h3>
+<h1>&lt;h1&gt;Page title style&lt;/h1&gt;</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<h2>&lt;h2&gt;Page section title style&lt;/h2&gt;</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<h3>&lt;h3&gt;Subtitle page style&lt;/h3&gt;</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<h4>&lt;h4&gt;Subtitle page style&lt;/h4&gt;</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<h5>&lt;h5&gt;Subtitle page style&lt;/h5&gt;</h5>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<h6>&lt;h6&gt;Subtitle page style&lt;/h6&gt;</h6>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<p>&lt;p&gt;<strong>Paragraph page style text.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porta, urna eu euismod blandit, nulla eros tristique ligula, id cursus sem eros eget enim. Aenean egestas a elit eget rutrum. In dignissim ullamcorper massa, vel faucibus justo cursus ac.&lt;/p&gt;</p>
+
+<h3>Page links</h3>
+<p>A sample  <a href="#">internal page link</a>.</p>
+<p>A sample  <a href="http://www.lipsum.com">external page link</a>. The icon appended to the link will automatically appear where the link points to a URL which begins with http, https or ftp, e.g. <code>&lt;a href=&quot;http://www.lipsum.com&quot;&gt;external page link&lt;/a&gt;</code>. This provides a visual cue that the user will be taken to an external web host to your pages.</p>
+
+
+<h3>Block text elements</h3>
+
+<h4><code>&lt;pre&gt;</code></h4>
+<p>Use the <code>&lt;pre&gt;</code> tag when displaying text with unusual formatting. If trying to display computer code, also wrap the text with the <code>&lt;code&gt;</code> tag to provide  semantic meaning to the content (see following section on phrase tags). If you are showing many code examples in your document, automatic code syntax highlighting scripts are freely available, e.g. <a href="https://highlightjs.org">highlight.js</a>.</p>
+<pre>&lt;pre&gt;preformatted text content&lt;/pre&gt;</pre>
+<strong>Use</strong>:<code> &lt;pre class=&quot;<strong>zebra</strong>&quot;&gt;</code> to add stripes to make reading code examples easier.
+<pre class="zebra"><code>#include &lt;stdio.h&gt;
+
+main( ) 
+{
+	printf("hello, world\n");
+}</code></pre>
+
+
+
+<h4><code>&lt;blockquote&gt;</code></h4>
+
+<p><strong>Use</strong>: <code>&lt;blockquote&gt;</code> to specify a long block of text that is quoted from another source. Text which appears with <code>&lt;blockquote&gt;</code> is typically indented and in this template, additional styling is added. Note that for inline quotes, the <code>&lt;q&gt;</code> tag should be used (see following section on phrase tags).</p>
+<p><strong>Example</strong>: The following is wrapped with the <code>&lt;blockquote&gt;</code> element:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+    <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+</blockquote>
+
+
+
+<h3>Separating blocks of text</h3>
+<p>To create visual separation between large blocks of text, you can insert a &quot;<strong>horizontal rule</strong>&quot; element (a separating lines).</p>
+<strong>Use</strong>: <code>&lt;hr /&gt;</code> to add a line separating rule.
+<hr />
+
+<h3>Inline text elements</h3>
+
+<h4>Phrase tags</h4>
+<p>Use one of the phrase tags to add semantic meaning to inline text  and highlight the inline text to users. Do not be tempted to use visual styles as the sole means of indicating that certain information has a particular meaning.</p>
+<table> 
+    <caption>Table listing HTML5 phrase tags.</caption>
+      <thead>
+<tr>
+    <th>Tag</th>
+    <th>Description</th>
+    <th>Example</th>
+    <th>Comments</th>
+  </tr> 
+    </thead>
+    <tbody> 
+  <tr>
+    <td><code>&lt;em&gt;</code></td>
+    <td>Renders as emphasized text</td>
+    <td>This is <code>&lt;em&gt;</code>emphasized<code>&lt;/em&gt;</code> text.
+        <p>Displays as:</p>
+       This is <em>emphasized</em> text.</td>
+    <td>Do not use the deprecated &lt;i&gt; tag to create  italics style. It provides no semantic meaning to the enclosed text.</td>
+  </tr>
+  <tr>
+    <td><code>&lt;strong&gt;</code></td>
+    <td>Defines important text</td>
+    <td>This is <code>&lt;strong&gt;</code>important<code>&lt;/strong&gt;</code> text with a strong meaning.
+    <p>Displays as:</p>
+    This is <strong>important</strong> text with  a strong meaning.</td>
+    <td>Do not use the deprecated &lt;b&gt; tag to create bold style. It provides no semantic meaning to the enclosed text.</td>
+  </tr>
+  <tr>
+    <td><code>&lt;code&gt;</code></td>
+    <td>Defines a piece of computer code</td>
+    <td>Create an array of integers with <code>&lt;code&gt;</code>int[] values = new int[10]<code>&lt;/code&gt;</code>
+        <p>Displays as:</p>
+        Create an array of integers with <code>int[] values = new int[10]</code></td>
+    <td>This adds important semantic meaning to the enclosed text and can also be styled differently if needed.</td>
+  </tr>
+  <tr>
+      <td><code>&lt;samp&gt;</code></td>
+      <td>Defines sample output from a computer program</td>
+      <td>The output from the programme  is &lt;samp&gt;Hello World&lt;/samp&gt;.
+      <p>Displays as:</p>
+      The output from the programme  is <samp>Hello World</samp>.</td>
+      <td>This adds important semantic meaning to the enclosed text and can also be styled differently if needed.</td>
+  </tr>
+  <tr>
+      <td><code>&lt;kbd&gt;</code></td>
+      <td>Defines keyboard input</td>
+      <td>In the DOS command prompt, type &lt;kbd&gt;ipconfig /all&lt;/kbd&gt;
+      <p>Displays as:</p>
+      In the DOS command prompt, type <kbd>ipconfig /all</kbd></td>
+      <td>This adds important semantic meaning to the enclosed text and can also be styled differently if needed.</td>
+  </tr>
+  <tr>
+      <td><code>&lt;kbd class=&quot;keys&quot;&gt;</code></td>
+      <td>Defines keyboard input (with styled &quot;keys&quot; text)</td>
+      <td>Use <code>&lt;kbd class=&quot;keys&quot;&gt;</code>CTRL+C<code>&lt;/kbd&gt;</code> to copy text.
+      <p>Displays as:</p>
+      Use <kbd class="keys">CTRL+C</kbd> to copy text.</td>
+      <td>This adds important semantic meaning to the enclosed text and also adds extra emphasis for visual users.</td>
+  </tr>
+  <tr>
+      <td><code>&lt;var&gt;</code></td>
+      <td>Defines a variable</td>
+      <td>This is a <code>&lt;var&gt;</code>variable<code>&lt;/var&gt;</code> within the text.
+      <p>Displays as:</p>
+      This is a <var>variable</var> within the text.</td>
+      <td>This adds important semantic meaning to the enclosed text and can also be styled differently if needed.</td>
+  </tr>
+  <tr>
+      <td><code>&lt;abbr&gt;</code></td>
+      <td>Used for both acronyms and abbreviations.</td>
+      <td><code>&lt;abbr title=&quot;HyperText Markup Language&quot;&gt;</code>HTML<code>&lt;/abbr&gt;</code>  <p>Displays as:</p> <abbr title="HyperText Markup Language">HTML</abbr></td>
+      <td>Include a title attribute on the <code>&lt;abbr&gt;</code> tag with the expanded meaning of the acronym.</td>
+  </tr>
+  <tr>
+      <td><code>&lt;dfn&gt;</code></td>
+      <td> Defines the instance of a term. The nearest parent tag of the <code>&lt;dfn&gt;</code> tag must also contain the definition/explanation for the term inside <code>&lt;dfn&gt;</code> (in these examples this is the <code>&lt;p&gt;</code> tag).</td>
+      <td><code>&lt;dfn title=&quot;HyperText Markup Language&quot;&gt;</code>HTML<code>&lt;/dfn&gt;</code> is the standard markup language for creating web pages.
+          <p>Displays as:</p>
+          <dfn title="HyperText Markup Language">HTML</dfn> is the standard markup language for creating web pages.</td>
+          
+      <td>The following is also acceptable:
+          
+
+          <br>
+          <br>
+          <code>&lt;p&gt;&lt;dfn&gt;&lt;abbr title=&quot;HyperText Markup Language&quot;&gt;</code>HTML<code>&lt;/abbr&gt;&lt;/dfn&gt;</code> is a computer language used to structure web-based content.<code>&lt;/p&gt;</code></td>
+  </tr>
+  <tr>
+      <td><code>&lt;q&gt;</code></td>
+      <td>Used to specify a short inline quotation.</td>
+      <td>WWF's goal is to:<code> &lt;q&gt;</code>Build a future where people live in harmony with nature.<code>&lt;/q&gt;</code> We hope they succeed.
+          <p>Display as:</p>
+          WWF's goal is to: <q>Build a future where people live in harmony with nature.</q> We hope they succeed.</td>
+      <td>Note that opening and closing quotation marks are automatically added by the styling and do not need to be manually inserted. </td>
+  </tr>
+  <tr>
+      <td><code>&lt;cite&gt;</code></td>
+      <td> Used to reference the title of a work such as a book, web site, or a statement. It must include the name of the author, title of the work, or a URL reference.</td>
+      <td><code>&lt;cite&gt;</code>The Scream<code>&lt;/cite&gt;</code> by Edward Munch. Painted in 1893. <p>Displays as:</p><cite>The Scream</cite> by Edward Munch. Painted in 1893. </td>
+      <td>The <code>&lt;cite&gt;</code> tag shouldn't be used for quotations — that's what <code>&lt;q&gt;</code> and <code>&lt;blockquote&gt;</code> are for.</td>
+  </tr>
+    </tbody>
+</table>
+  <p>Note that there are other inline "phrase" tags available in the HTML5 specification.  However, these have been left out as they are either not relevant to the type of content that is developed for Teaching and Learning OR they encourage bad practice from an accessibility point of view.
+      Whilst part of the HTML 5 specification, use of the following tags are strongly discouraged <code>&lt;i&gt;</code>, <code>&lt;b&gt;</code>, <code>&lt;u&gt;</code>, <code>&lt;s&gt;</code>.</p>
+<h3>Custom text styles</h3>
+<p>The following table illustrates other <em>custom</em> styles which form part of this table. These are provided for convenience and can be added to with further customisations to the template.</p>
+<table width="100%" border="1">
+    <tr>
+        <th scope="col" style="min-width: 250px;">Style</th>
+        <th scope="col" style="min-width: 250px;">Example</th>
+        <th scope="col" style="min-width: 200px;">Comment</th>
+    </tr>
+    <tr>
+        <td><code>&lt;strong class=&quot;<strong>important</strong>&quot;&gt;</code></td>
+        <td> This adds <strong class="important">extra emphasis</strong> on strong text for visual users.</td>
+        <td>Only applicable to the <code>&lt;strong&gt;</code> tag.</td>
+    </tr>
+    <tr>
+        <td><code>&lt;p class=&quot;text-left&quot;&gt;</code></td>
+        <td><p class="text-left">This text is  aligned to the left.</p></td>
+        <td><p>Text is by default left aligned, but in some cases, this style can be used to force left alignment where other styles provide different alignment. </p>
+            <p>The <code>text-left</code> style can be applied to <em>any</em> tag.</p></td>
+    </tr>
+    <tr>
+        <td><code>&lt;p class=&quot;text-right&quot;&gt;</code></td>
+        <td><p class="text-right">This text is aligned to the right.</p></td>
+        <td>The <code>text-right</code> style can be applied to <em>any</em> tag.</td>
+    </tr>
+    <tr>
+        <td><code>&lt;p class=&quot;text-center&quot;&gt;</code></td>
+        <td><p class="text-center">This text is center aligned.</p></td>
+        <td>The <code>text-center</code> style can be applied to <em>any</em> tag.</td>
+    </tr>
+    <tr>
+        <td><code>&lt;p class=&quot;capitalise&quot;&gt;</code></td>
+        <td><p class="capitalise">This text is automatically capitalised.</p></td>
+        <td>The <code>capitalise</code> style can be applied to <em>any</em> tag.</td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<div class="box callout3">
+    <h3>Best practice</h3>
+    <p>Always use correct headings, lists and other structural elements to provide meaning and structure to web pages. This helps with making your document more accessible to assistive technologies and also facilitates keyboard navigation within the page.</p>
+    <p> However being disciplined over using  semantic correct HTML tags will provide a highly consistent presentation style throughout your document and so all users benefit. From a technical standpoint it also provides a central point to change those styles via the associated style rules document (CSS).</p>
+    <p> An excellent guide to explaining best practice for structuring text based web content with semantically correct elements is available at <a href="http://webaim.org/techniques/semanticstructure/" target="_blank">http://webaim.org/techniques/semanticstructure/</a>.</p>
+</div>
+</section>
+<section role="region" id="lists">
+
+<h2>Lists</h2>
+<p>Lists can be presented in three key ways in HTML - as <strong>unordered</strong> lists; as <strong>ordered</strong> (numerical) lists; or as <strong>definition</strong> lists.  Extra styling rules can be provided to add emphasis to the default list styling. </p>
+<h3>Unordered lists</h3>
+
+<p><strong>Use</strong>: <code>&lt;ul&gt;</code> to create basic default styled unordered list. </p>
+<ul>
+    <li>One</li>
+    <li>Two        </li>
+    <li>Three
+        <ul>
+            <li>Four </li>
+            <li>Five</li>
+        </ul>
+    </li>
+    <li>Six</li>
+    <li>Seven</li>
+    <li>Eight</li>
+</ul>
+
+<p><strong>Use</strong>: <code>&lt;ul class=&quot;<strong>zebra</strong>&quot;&gt;</code> to create a &quot;striped&quot; row style to an unordered list.</p>
+<ul class="zebra">
+    <li>One</li>
+    <li>Two        </li>
+    <li>Three
+        <ul>
+            <li>Four </li>
+            <li>Five</li>
+        </ul>
+    </li>
+    <li>Six</li>
+    <li>Seven</li>
+    <li>Eight</li>
+</ul>
+
+
+<p><strong>Use</strong>: <code>&lt;ul class=&quot;<strong>flatten</strong>&quot;&gt;</code> to &quot;flatten&quot; an unordered list. This is often useful for creating flat lists of navigation links. The separators are automatically added in the styling.</p>
+<ul class="flatten">
+   <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+    <li>Four </li>
+    <li>Five</li>
+    <li>Six</li>
+    <li>Seven</li>
+    <li>Eight</li>
+</ul>
+
+<h3>Ordered lists</h3>
+<p>This template includes a set of numbering styles to cover a variety of teaching and learning needs. Further numbering formats can be created as necessary.</p>
+<table width="100%" border="1">
+    <caption>
+        Numbered list styles
+        </caption>
+    <tr>
+        <th scope="col">Style</th>
+        <th scope="col">Default</th>
+        <th scope="col">Decimal</th>
+        <th scope="col">Decimal indexed</th>
+        <th scope="col">Harvard</th>
+        </tr>
+    <tr>
+        <th scope="row">HTML usage</th>
+        <td><code>&lt;ol&gt;</code></td>
+        <td><code>&lt;ol class=&quot;decimal&quot;&gt;</code></td>
+        <td><code>&lt;ol class=&quot;decimal-index&quot;&gt;</code></td>
+        <td><code>&lt;ol class=&quot;harvard&quot;&gt;</code></td>
+        </tr>
+    <tr>
+        <th scope="row">Example</th>
+        <td style="font-size: 75%">
+    <ol>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item
+            <ol>
+                <li>Item</li>
+                <li>Item
+                    <ol>
+                        <li>Item</li>
+                        <li>Item
+                            <ol>
+                                <li>Item</li>
+                                <li>Item
+                                    <ol>
+                                        <li>Item</li>
+                                        <li>Item</li>
+                                        </ol>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ol></td>
+        <td style="font-size: 75%">
+            <ol class="decimal">
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item
+                    <ol>
+                        <li>Item</li>
+                        <li>Item
+                            <ol>
+                                <li>Item</li>
+                                <li>Item
+                                    <ol>
+                                        <li>Item</li>
+                                        <li>Item
+                                            <ol>
+                                                <li>Item</li>
+                                                <li>Item</li>
+                                                </ol>
+                                            </li>
+                                        </ol>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+    </ol></td>
+        <td style="font-size: 75%">
+            <ol class="decimal-index">
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item
+                    <ol><li>Item</li>
+                        <li>Item
+                            <ol><li>Item</li>
+                                <li>Item
+                                    <ol>
+                                        <li>Item</li>
+                                        <li>Item
+                                            <ol>
+                                                <li>Item</li>
+                                                <li>Item</li>
+                                                </ol>
+                                            </li>
+                                        </ol>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+    </ol></td>
+        <td style="font-size: 75%">
+            <ol class="harvard">
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item
+                    <ol>
+                        <li>Item</li>
+                        <li>Item
+                            <ol><li>Item</li>
+                                <li>Item
+                                    <ol><li>Item</li>
+                                        <li>Item
+                                            <ol>
+                                                <li>Item</li>
+                                                <li>Item</li>
+                                                </ol>
+                                            </li>
+                                        </ol>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+    </ol></td>
+        </tr>
+    <tr>
+        <th scope="row">Comment</th>
+        <td>Matches common word processing formatting. </td>
+        <td>Simple nested decimal numbering. </td>
+        <td>Numbered list with nested decimal indexing. </td>
+        <td>Matches the Harvard-style of numbering.</td>
+        </tr>
+</table>
+<h4>Additional styles</h4>
+<p>A small number of more stylized formats are provided.</p>
+<p><strong>Use</strong>: <code>&lt;ol class=&quot;<strong>zebra</strong>&quot;&gt;</code> to create a &quot;striped&quot; row style to an ordered list. This style can be combined with any of the numbering format styles above.</p>
+<ol class="zebra">
+    <li>One</li>
+    <li>Two        </li>
+    <li>Three
+        <ul>
+            <li>Four </li>
+            <li>Five</li>
+        </ul>
+    </li>
+    <li>Six</li>
+    <li>Seven</li>
+    <li>Eight</li>
+</ol>
+<p><strong>Use</strong>: <code>&lt;ol class=&quot;<strong>tabbed</strong>&quot;</code>&gt; to create this styled numbered list. This style is <strong>not</strong> designed to be combined with any of the numbering format styles above.</p>
+<ol class="tabbed">
+    <li>One</li>
+    <li>Two        </li>
+    <li>Three
+        <ol>
+            <li>Four </li>
+            <li>Five</li>
+        </ol>
+    </li>
+    <li>Six</li>
+    <li>Seven</li>
+    <li>Eight</li>
+</ol>
+
+<h3>Definition lists</h3>
+<p>Definition lists can be used for tasks such as creating FAQ lists and glossaries. More information about how to structure definition lists is available at <a href="http://www.w3schools.com/tags/tag_dl.asp" target="_blank">www.w3schools.com</a>.</p>
+<p><strong>Use</strong>: To create a basic default styled definition list, use <code>&lt;dl&gt;</code> to enclose the entire <strong>l</strong>ist, with <code>&lt;dt&gt;</code> for the <strong>t</strong>erm and <code>&lt;dd&gt;</code> for the <strong>d</strong>efinition:</p>
+<pre><code>&lt;dl&gt;
+	&lt;dt&gt;How much wood would a wood chuck chuck if a wood chuck could chuck wood?&lt;/dt&gt;
+	&lt;dd&gt;1,000,000&lt;/dd&gt;
+
+	&lt;dt&gt;What is the air-speed velocity of an unladen swallow?&lt;/dt&gt;
+	&lt;dd&gt;What do you mean? An African or European swallow?&lt;/dd&gt;
+
+	&lt;dt&gt;Why did the chicken cross the road?&lt;/dt&gt;
+	&lt;dd&gt;To get to the other side&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+<dl class="zebra">
+    <dt>How much wood would a wood chuck chuck if a wood chuck could chuck wood?</dt>
+    <dd>1,000,000</dd>
+    
+    <dt>What is the air-speed velocity of an unladen swallow?</dt>
+    <dd>What do you mean? An African or European swallow?</dd>
+    
+    <dt>Why did the chicken cross the road?</dt>
+    <dd>To get to the other side</dd>
+</dl>
+
+<p><strong>Use</strong>: <code>&lt;dl class=&quot;<strong>ordered</strong>&quot;&gt;</code> to style a definition list with numbered entries.</p>
+
+<dl class="ordered">
+    <dt>How much wood would a wood chuck chuck if a wood chuck could chuck wood?</dt>
+    <dd>1,000,000</dd>
+    
+    <dt>What is the air-speed velocity of an unladen swallow?</dt>
+    <dd>What do you mean? An African or European swallow?</dd>
+    
+    <dt>Why did the chicken cross the road?</dt>
+    <dd>To get to the other side</dd>
+</dl>
+
+<p>Definition lists are often under used when structuring HTML documents, possibly because there is no direct related structure in common word processing packages. A major strength is that within a definition list you can use multiple terms or multiple descriptions to group related information. For example:</p>
+<dl>
+<dt>DT: Website link</dt>
+  <dd>DD: Description of website</dd>
+
+<dt>DT: Upcoming Gig</dt>
+  <dd>DD: Date</dd>
+  <dd>DD: Venue</dd>
+  <dd>DD: Cover Charge</dd>
+
+<dt>DT: Pseudonym #1</dt>
+<dt>DT: Pseudonym #2</dt>
+  <dd>DD: What it means</dd>
+
+<dt>DT: Recipe</dt>
+  <dd>DD: Ingredient</dd>
+  <dd>DD: Ingredient</dd>
+  <dd>DD: Instructions</dd>
+</dl>
+
+<div class="box callout3">
+<h3>Best practice</h3>
+<p>Lists are great from an accessibility standpoint because they provide structured order to content in a linear fashion and therefore add the all important semantic meaning to the enclosed content. Lists are recommended as potential replacements for simple tables, as tables can be more difficult to navigate and sometimes we provide info in tables that really would be better suited to lists. You should never rely on indentation to provide a visual list, use a proper HTML structure instead e.g. either an <strong>unordered</strong> <code>&lt;ul&gt;</code>list; an <strong>ordered</strong> (numerical) <code>&lt;ol&gt;</code> list; or a <strong>definition</strong>  <code>&lt;dl&gt;</code> list.</p>
+</div>
+
+</section>
+<section role="region" id="tables">
+
+<h2>Tables</h2>
+<p>HTML tables should be used to present tabular information in a grid, or matrix, with columns and rows that show the meaning of the information in the grid.</p>
+<div class="box warning1 icon-warning">
+<h3>Warning - do not use tables to control page layout</h3>
+<p>Prior to the creation of CSS, HTML <code>&lt;table&gt;</code> elements were often used as a method for <strong>page layout</strong>. This usage has been <strong class="important">strongly discouraged</strong> since HTML 4, and the <code>&lt;table&gt;</code> element should <strong>not</strong> be used for layout purposes. You can read more about why use of tables in webpage layout is so discouraged at <a href="http://webaim.org/techniques/tables/">http://webaim.org/techniques/tables/.</a></p>
+</div>
+<p>A basic data table layout should consist of the parent <code>&lt;table&gt;</code> tab immediately followed by a <code>&lt;caption&gt;</code> tag to describe the content of that table.</p>
+<pre class="zebra"><code>&lt;table&gt;
+	<strong>&lt;caption&gt;</strong>Table description goes here<strong>&lt;/caption&gt;</strong>
+    ...
+</code></pre>
+<p>Following the  caption, the table should include the different blocks that make up its structure - a table header block <code>&lt;thead&gt;</code>,  if required an optional table footer block <code>&lt;tfoot&gt;</code> would follow, and finally the main table data rows <code>&lt;tbody&gt;</code>. In practice, the table footer block <code>&lt;tfoot&gt;</code> block is not commonly used, and will not be discussed further. However, to read more about its usage, see <a href="http://www.w3schools.com/tags/tag_tfoot.asp">http://www.w3schools.com/tags/tag_tfoot.asp</a>. The &quot;best practice&quot; information at the end of this section describes why it can be beneficial to <em>all</em> users to add these blocks.</p>
+<pre class="zebra"><code>&lt;table&gt;
+	&lt;caption&gt;Table description goes here&lt;/caption&gt;
+    <strong>&lt;thead&gt;</strong>...table header block...<strong>&lt;/thead&gt;</strong>
+<strong>	&lt;tfoot&gt;</strong>...optional footer block...<strong>&lt;/tfoot&gt;</strong>	
+<strong>	&lt;tbody&gt;</strong>...main table data block...<strong>&lt;/tbody&gt;
+</strong></code>&lt;/table&gt;</pre>
+
+
+<p>A critical step toward creating a well formed, presentable and accessible data table is to designate column and/or row headers. In the markup,  the <code>&lt;th&gt;</code> element is used for table header cells and the <code>&lt;td&gt;</code> element is used for table data cells. To separate each row in the table, the <code>&lt;tr&gt;</code> element is used. Using <code>&lt;th&gt;</code> elements to indicate the header cells will not only provide semantic meaning to the cell, but also apply a style for visual users.</p>
+
+<pre class="zebra float-right"><code>&lt;table&gt;
+&lt;caption&gt;Table of chemical elements&lt;/caption&gt;
+&lt;thead&gt;
+    &lt;tr&gt;
+        <strong>&lt;th scope=&quot;col&quot;&gt;</strong>Name<strong>&lt;/th&gt;</strong>
+        <strong>&lt;th scope=&quot;col&quot;&gt;</strong>Symbol<strong>&lt;/th&gt;</strong>
+        <strong>&lt;th scope=&quot;col&quot;&gt;</strong>Atomic number<strong>&lt;/th&gt;</strong>
+    &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+    &lt;tr&gt;
+        <strong>&lt;th scope=&quot;row&quot;&gt;</strong>Carbon<strong>&lt;/th&gt;</strong>
+        &lt;td&gt;C&lt;/td&gt;
+        &lt;td&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        <strong>&lt;th scope=&quot;row&quot;&gt;</strong>Cesium<strong>&lt;/th&gt;</strong>
+        &lt;td&gt;Cs&lt;/td&gt;
+        &lt;td&gt;55&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/tbody&gt;    
+&lt;/table&gt;
+</code></pre>
+
+<p> Note that whilst <code>&lt;th&gt;</code> elements are usually used to indicate the meaning of the data in the <strong>column</strong>, <code>&lt;th&gt;</code> elements can also  be included in the <code>&lt;tbody&gt;</code> block where a header cell needs to indicate the meaning of the <strong>row</strong>. This mixture of headers used for both columns and rows is illustrated in the following table:</p>
+
+
+
+
+<table>
+<caption>
+Table of chemical elements
+</caption>
+<tr>
+<th scope="col">Name</th>
+<th scope="col">Symbol</th>
+<th scope="col">Atomic number</th>
+</tr>
+
+<tr>
+<th scope="row">Carbon</th>
+<td>C</td>
+<td>6</td>
+</tr>
+
+<tr>
+<th scope="row">Cesium</th>
+<td>Cs</td>
+<td>55</td>
+</tr>
+</table>
+
+
+<p>However, to aid accessibility of the table, we should explicitly tell the browser whether the <code>&lt;th&gt;</code> element is a header for the <strong>column</strong> or the <strong>row</strong> and for this we add the <code>scope</code> attribute to each <code>&lt;th&gt;</code> element.</p>
+
+<p><strong>Use:</strong> <code>&lt;th <strong>scope="col"</strong>&gt;</code>  to indicate a <code>&lt;th&gt;</code> element  applies to the <strong>column</strong>.<br>
+    <strong>Use:</strong> <code>&lt;th <strong>scope="row"</strong>&gt;</code> to indicate a <code>&lt;th&gt;</code> element  applies to the <strong>row</strong>.
+
+
+    <span class="clearfix"></span></p>
+<h3>Additional table styles</h3>
+<p><strong>Use</strong>: <code>&lt;table class=&quot;<strong>zebra</strong>&quot;&gt;</code> to add &quot;striped&quot; rows to a table of data</p>
+<table class="zebra">
+<caption>An example table which will scroll horizontally on small screens e.g. mobile phones.</caption>
+	<thead>
+    <tr>
+        <th scope="col">Column 1</th>
+        <th scope="col">Column 2</th>
+        <th scope="col">Column 3</th>
+        <th scope="col">Column 4</th>
+        <th scope="col">Column 5</th>
+        <th scope="col">Column 6</th>
+        <th scope="col">Column 7</th>
+        <th scope="col">Column 8</th>
+        <th scope="col">Column 9</th>
+        <th scope="col">Column 10</th>
+        <th scope="col">Column 11</th>
+        <th scope="col">Column 12</th>
+        <th scope="col">Column 13</th>
+        <th scope="col">Column 14</th>
+        <th scope="col">Column 15</th>
+        <th scope="col">Column 16</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+    </tr>
+    <tr>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+    </tr><tr>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+    </tr><tr>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+        <td>data 1, data 2</td>
+    </tr>
+    </tbody>
+</table>
+<p>Behind the scenes, this template ensures that where a table contains too many columns to fit the width of the device it is displayed on, the table will scroll horizontally. The user is prompted that  more data is available off-screen with a ◀ scroll ▶ indicator (javascript dependent), which is particularly important on some mobile devices where  the horizontal scrollbar may not be displayed.</p>
+<div class="box callout3">
+<h3>Best practice</h3>
+<ul>
+    <li>Never use HTML table to control the layout of the page - there are other and better approaches. Only use tables to present tabular information in a grid or matrix.</li>
+    <li>Add a  <code>&lt;caption&gt;</code> element to a table helps all users and gives a more professional appearance to your document. This must be the first thing after the opening <code>&lt;table&gt;</code> tag.</li>
+    <li>A critical step toward creating an accessible data table is to designate column and/or row headers using <code>&lt;th&gt;</code> elements. Doing so adds the all important semantic information and also applies a visual style which will help <strong>all</strong> users.</li>
+    <li>Including <code>&lt;thead&gt;</code> and <code>&lt;tbody&gt;</code> (and optionally <code>&lt;tfoot&gt;</code>) elements to indicate blocks within the table may benefit <strong>all</strong> users. Where a table is very long and stretches over more than one page if printed, some web browsers use this semantic information to ensure that rows in the <code>&lt;thead&gt;</code> block are repeated at the top of each printed page - and likewise <code>&lt;tfoot&gt;</code> blocks are repeated at the bottom of each printed page. Wrapping the <code>&lt;tbody&gt;</code> element around the main table data opens up the possibility of allowing the main table data to scroll independently within the table (though not by default within this template).</li>
+    <li>Avoid using the  table elements <code>&lt;colgroup&gt;</code> and <code>&lt;col&gt;</code> as they often add complexity to table layouts which may not be supported by assistive technologies such as screen readers.</li>
+    <li>An excellent guide to explaining best practice for using and structuring HTML tables is available at <a href="http://webaim.org/techniques/tables/data" target="_blank">http://webaim.org/techniques/tables/data</a>.</li>
+</ul>
+</div>
+   
+</section>
+<section role="region" id="callouts">
+
+<h2>Callout boxes - Basic styles, placement and sizing</h2>
+<p>This template includes a simple styling framework for the inclusion of  &quot;display boxes&quot; within your document. These allow the author to draw attention to parts of the text within the document and set it apart in a  contrasting style. This is sometimes referred to as a &quot;callout&quot;.</p>
+<p>The box styles provided can be combined to control <strong>appearance</strong>, <strong>width,</strong> <strong>placement</strong> and  decoration in the form of box <strong>icons</strong>. To illustrate how these styles work together, this section features sets of example usage. Note that the <em>order</em> that the style names are listed within the <code>class=&quot;...&quot;</code> attribute is not important.</p>
+<div class="box"><code>&lt;div class=&quot;<strong>box</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>The "box" style adds a plain border</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;
+    </code></div>
+
+<div class="box callout1"><code>&lt;div class=&quot;box <strong>callout1</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>The &quot;callout1&quot; box style adds additional  highlighting to draw attention.</strong><br> 
+    Other box styles are available and are discussed shortly.<br>
+    <br>
+    <code>&lt;/div&gt; </code></div>
+
+<div class="box callout1 w500px"><code>&lt;div class=&quot;box callout1 <strong>w500px</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>A box will stretch to fill the width of the document. To constrain this, use one of the following styles to fix the maximum width of the box.</strong><br>
+    <dl><dt>Fixed pixel width styles:</dt>
+    <dd>w200px, w250px, w300px, w350px, w400px, w450px, w500px </dd>
+    <dt>Dynamic percentage width styles: </dt>
+    <dd>w25percent, w50percent, w75percent, w90percent</dd>
+    </dl>
+    <code>&lt;/div&gt; </code></div>
+
+<h3>Box placement</h3>
+<p>This template provides simple styles to aid positioning of boxes within a document.  Controlling the position of elements with any more precision than is provided here soon becomes unwieldy and complicated. This template simplifies positioning down to either left, right or center. The US spelling of &quot;center&quot; is deliberate as the underlying language of styling (CSS) uses this spelling.</p>
+<p>In the case of positioning left and right, the style actually positions the box left or right and forces any other content, e.g. text content, to &quot;flow&quot; around it. The underlying style which does this is called &quot;float&quot; which is why the styles illustrated below are called &quot;<strong>float-left</strong>&quot; and &quot;<strong>float-right</strong>&quot;. This is illustrated better in the section about <a href="#figures">Figures</a> where the float-left and float-right styles are used to position images with text flowing around them. However, the use of the float styling rule can introduce some problems with layout with boxes intruding into content below or pulling other content out of position. See the section on <a href="#layout">Layout</a> for how to fix such issues.</p>
+<p>When using the &quot;center&quot; style, text cannot be forced to flow around both sides and instead is interrupted by the center placed box element. </p>
+<div class="box callout1 w450px float-left"><code>&lt;div class=&quot;box callout1<strong> </strong>w450px <strong>float-left</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box floated "left"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt; </code></div>
+<span class="clearfix"></span>
+
+<div class="box callout1 w450px float-right"><code>&lt;div class=&quot;box callout1<strong> </strong>w450px <strong>float-right</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box floated "right"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt; </code></div>
+    
+    <span class="clearfix"></span>
+    
+    <div class="box callout1 center w450px"><code>&lt;div class=&quot;box callout1<strong> </strong>w450px <strong>center</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+
+<h3>Box widths</h3>
+<p>The width of a box can be controlled using styles from one of two sets of width styling rules.  Width rules specified with <strong>pixel units</strong> are fixed widths and keep their dimensions if the browser window is resized. Width rules specified with <strong>percentage units</strong> are  widths relative to the width of the  browser window and will change their width if the browser window is resized to ensure they only occupy a &quot;percentage&quot; of the available document width.</p>
+<p>In both cases, rules exist to ensure boxes have a sensible minimum width and where the device being used to view the document has a small screen, box width is reduced to fit the available space.</p>
+<h4>Box widths expressed with pixel units</h4>
+<p>Where the page width is narrow, such as on small screen devices, boxes will be not size beyond the width of the screen.</p>
+
+<div class="box callout1 center w200px"><code>&lt;div class=&quot;box callout1 center <strong>w200px</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+
+<div class="box callout1 center w250px"><code>&lt;div class=&quot;box callout1 center <strong>w250px</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+
+<div class="box callout1 center w300px"><code>&lt;div class=&quot;box callout1 center <strong>w300px</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <code>&lt;/div&gt;</code></div>
+
+<div class="box callout1 center w350px"><code>&lt;div class=&quot;box callout1 center <strong>w350px</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <code>&lt;/div&gt;</code></div>
+
+<div class="box callout1 center w400px"><code>&lt;div class=&quot;box callout1 center <strong>w400px</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+
+<div class="box callout1 center w450px"><code>&lt;div class=&quot;box callout1 center <strong>w450px</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+
+<div class="box callout1 center w500px"><code>&lt;div class=&quot;box callout1 center <strong>w500px</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+    
+<div class="box callout1 center w550px"><code>&lt;div class=&quot;box callout1 center <strong>w550px</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+
+<div class="box callout1 center w600px"><code>&lt;div class=&quot;box callout1 center <strong>w600px</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+
+<div class="box callout1 center w650px"><code>&lt;div class=&quot;box callout1 center <strong>w650px</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+
+<div class="box callout1 center w700px"><code>&lt;div class=&quot;box callout1 center <strong>w700px</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+
+<div class="box callout1 center w750px"><code>&lt;div class=&quot;box callout1 center <strong>w750px</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+
+<div class="box callout1 center w800px"><code>&lt;div class=&quot;box callout1 center <strong>w800px</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+    
+<div class="box callout1 center w850px"><code>&lt;div class=&quot;box callout1 center <strong>w850px</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+
+<div class="box callout1 center w900px"><code>&lt;div class=&quot;box callout1 center <strong>w900px</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+ 
+<div class="box callout1 center w950px"><code>&lt;div class=&quot;box callout1 center <strong>w950px</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+    
+<h4>Box widths expressed with percentage units</h4>
+<p>Where the page width is narrow, such as on small screen devices, the minimum width is fixed at 200px.</p>
+
+<div class="box callout1 center w25percent"><code>&lt;div class=&quot;box callout1 center <strong>w25percent</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+<div class="box callout1 center w50percent"><code>&lt;div class=&quot;box callout1 center <strong>w50percent</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+
+<div class="box callout1 center w75percent"><code>&lt;div class=&quot;box callout1 center <strong>w75percent</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+
+<div class="box callout1 center w90percent"><code>&lt;div class=&quot;box callout1 center <strong>w90percent</strong>&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box positioned "center"</strong>.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+
+
+
+<span class="clearfix"></span>
+
+
+<h3>Callout box styles</h3>
+<p>Boxes can be given background shadows and colours to lift them from the page. Further designs can be created if needed. Changing the style rule from <code>callout1</code> to one of those indicated in the following examples will transform the styling.</p>
+
+<div class="box callout1 float-left w25percent">
+<h1>callout1</h1>
+<code>&lt;div class=&quot;box <strong>callout1</strong> float-left w25percent&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box </strong> - a small box with a highlight to draw attention to specific text.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+    
+    
+
+<div class="box callout2 float-left w25percent">
+<h2>callout2</h2>
+<code>&lt;div class=&quot;box <strong>callout2</strong> float-left w25percent&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box </strong> - a small box with a highlight to draw attention to specific text.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+    
+    <div class="box callout3 float-left w25percent">
+<h2>callout3</h2>
+<code>&lt;div class=&quot;box <strong>callout3</strong> float-left w25percent&quot;&gt;</code><br>
+    <br>
+    <strong>Callout box </strong> - a small flat box with a border-highlight to draw attention to specific text.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+    
+<span class="clearfix"></span>
+
+
+<div class="box warning1 float-left w25percent">
+<h2>warning1</h2>
+<code>&lt;div class=&quot;box <strong>warning1</strong> float-left w25percent&quot;&gt;</code><br>
+    <br>
+    <strong>Warning box</strong> - a small box with a highlight to draw attention to specific text. See also the icons which can be added to any box.<br>
+    <br>
+    <code>&lt;/div&gt;</code></div>
+    
+    
+<span class="clearfix"></span>
+
+
+<h3>Box icon styles</h3>
+<p>Any box can be decorated with an icon to add emphasis for visual users.  Note that boxes should be given a clear<strong> title</strong> as well to ensure the meaning of the box is clear to <strong>all</strong> users.</p>
+<p>To decorate a box with an icon, add one of the "<code>icon-</code>" styles as illustrated below.</p>
+
+
+<p>This template includes the below <a href="../css/icon-packs/basic/icon-pack-basic.html">basic icon-pack</a> by default.  Further icon-packs may be manually added to your project.  At present there is only one additional <em>optional</em> icon pack to display the ISO 7010 safety icons.  You can preview all the icons in the pack on the <a href="../css/icon-packs/iso7010/icon-pack-iso7010.html">ISO 7010 icon pack preview page</a>. </p>
+
+<h4>Basic icon pack (included by default)</h4>
+<div class="box callout2 icon-info float-left w400px">
+
+<h3>Icon box information</h3>
+
+<p><code>&lt;div class=&quot;box callout2 w400px <strong> icon-info</strong> float-left &quot;&gt; </code></p>
+
+<p><code>&lt;/div&gt;</code></p>
+</div>
+
+<div class="box callout2 icon-question float-left w400px">
+
+<h3>Icon box question</h3>
+
+<p><code>&lt;div class=&quot;box callout2 w400px <strong> icon-question</strong> float-left &quot;&gt; </code></p>
+
+<p><code>&lt;/div&gt;</code></p>
+</div>
+
+<div class="box warning1 icon-cancel float-left w400px">
+    <h3>Icon box cancel</h3>
+    <p><code>&lt;div class=&quot;box warning1 w400px<strong> icon-cancel</strong> float-left &quot;&gt; </code></p>
+     <p><code>&lt;/div&gt;</code></p>
+</div>
+
+
+<div class="box warning1 icon-stop float-left w400px">
+    <h3>Icon box stop</h3>
+    <p><code>&lt;div class=&quot;box warning1 w400px<strong> icon-stop</strong> float-left &quot;&gt; </code></p>
+     <p><code>&lt;/div&gt;</code></p>
+</div>
+
+<div class="box warning1 icon-warning float-left w400px">
+    <h3>Icon box warning</h3>
+    <p><code>&lt;div class=&quot;box warning1 w400px<strong> icon-warning</strong> float-left &quot;&gt; </code></p>
+     <p><code>&lt;/div&gt;</code></p>
+</div>
+
+
+
+
+
+
+
+<span class="clearfix"></span>
+
+<div class="box callout3">
+    <h3>Best practice</h3>
+<p>When using icon boxes, always ensure you have a clear warning text message rather than just relying on the icon image to convey the meaning of the message.  This is for two reasons (1) it will make the meaning of the callout box clearer for <strong>ALL</strong> users; and (2) since the icon image is for decorative reasons and is displayed  using CSS, the icon will <strong>not</strong> be seen by screen reading devices.</p>
+<p>You may also wish to consider if rather than applying the box styles to a <code>&lt;div&gt;</code> element, another HTML5 structural element might be more appropriate. See the section about <a href="#layout">Layout</a> for more information on this.</p>
+</div>
+
+</section>
+<section role="region" id="figures">
+
+<h2>Figures - Displaying image figures and figure captions</h2>
+<p>Figures, such as images within documents, should be enclosed within  the <strong><code>&lt;figure&gt;</code></strong> HTML element. Where possible, always add the <strong><code>&lt;figcaption&gt;</code></strong> element <em>inside</em> the <code>&lt;figure&gt;</code> element and supply a description of the image. Note that it is also acceptable to add more than one image within a single <code>&lt;figure&gt;</code> element and then provide a <code>&lt;figcaption&gt;</code> to describe all the images. However, each individual image should have its own &quot;alt&quot; description - see the &quot;Best practice&quot; information below.</p>
+<p>Within this template, all images with <em>automatically</em> scale according to the  available screen space  on the device they are viewed  - this helps to make the content work better on smaller tablet and mobile screens. This is known as &quot;responsive&quot; behaviour i.e. they &quot;respond&quot; to the screen size they display on.</p>
+<p>The modern HTML5 way to present document image figures is as follows:</p>
+<pre class="zebra"><strong>&lt;figure&gt;</strong>
+    &lt;img src=&quot;500x200_sample_image.jpg&quot; alt=&quot;A sample 500 x 200 image.&quot; /&gt;
+    <strong>&lt;figcaption&gt;A sample 500 x 200 image.&lt;/figcaption&gt;
+&lt;/figure&gt;</strong></pre>
+<p>
+    <figure>   
+        <img src="resources/500x200_sample_image.jpg" alt="A sample 500 x 200 image." />
+        <figcaption>A sample 500 x 200 image.</figcaption> 
+    </figure>
+    </p>
+<p>
+Here the figure contains multiple images. Each image has its own individual alt tag with one <code>&lt;figcaption&gt;</code> to describe the whole figure.
+<pre class="zebra">&lt;figure&gt;
+	&lt;img src=&quot;resources/sample1.jpg&quot; <strong>alt=&quot;Photo of  galloway cattle.&quot;</strong> /&gt;
+    &lt;img src=&quot;resources/sample2.jpg&quot; <strong>alt=&quot;Photo of the common kingfisher.&quot;</strong> /&gt;
+    &lt;img src=&quot;resources/sample3.jpg&quot; <strong>alt=&quot;Photo of the greylag goose.&quot;</strong> /&gt;
+    <strong>&lt;figcaption&gt;Holiday photos from 2014.&lt;/figcaption&gt; </strong>
+&lt;/figure&gt;</pre>
+    <figure>   
+        <img src="resources/sample1.jpg" alt="Photo of  galloway cattle." />
+        <img src="resources/sample2.jpg" alt="Photo of the common kingfisher." />
+        <img src="resources/sample3.jpg" alt="Photo of the greylag goose." />
+        <figcaption><span class="zebra">Holiday photos from 2014.</span></figcaption> 
+    </figure>
+    
+</p>
+<div class="clearfix"></div>
+<p>You can also add similar styles to those for &quot;boxes&quot; to the <code>&lt;figure&gt;</code> element, such as styles to control <strong>appearance</strong>, <strong>width</strong> and <strong>position</strong>.</p>
+<figure class="box callout2 w200px float-left">
+<p><strong><code>&lt;figure class=&quot;box callout2 w200px float-left&quot;&gt;</code></strong> </p>
+<p>A box border and callout2 style, but with no &lt;figcaption&gt; included. Note that an &quot;alt&quot; description is still needed in this case  (see &quot;Best practice&quot;).<br>
+<code>alt=&quot;A sample 200 x 200 image.&quot;</code></p>
+<img src="resources/200x200_sample_image.jpg" alt="A sample 200 x 200 image." /></figure>
+
+
+
+<figure class="w200px float-right">
+<p><strong><code>&lt;figure class=&quot;w200px float-right&quot;&gt; </code></strong></p>
+<p>No box border, but with a <code>&lt;figcaption&gt;</code>.</p>
+<img src="resources/200x200_sample_image.jpg" alt=">A sample 200 x 200 image." />
+<figcaption>A sample 200 x 200 image.</figcaption> 
+</figure>
+
+
+<div class="clearfix"></div>
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vulputate magna sit amet blandit. Pellentesque turpis felis, ullamcorper sed mauris nec, cursus volutpat turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit placerat mi consectetur dignissim. In arcu dolor, lacinia a posuere nec, pharetra id sem. Suspendisse consectetur metus a elit vehicula facilisis. Donec efficitur dui risus. Maecenas eleifend nisi ut imperdiet tristique. Quisque ut mauris diam. Sed molestie blandit faucibus. Proin eget ornare augue, in imperdiet odio. Duis vehicula et tellus non fringilla.
+</p>
+
+<figure class="box w200px float-left"><p><code>&lt;figure class=&quot;box w200px <strong>float-left</strong>&quot;&gt;
+</code></p>
+    <p>Note how text <em>flows</em> around the right-hand side of this left-floated figure box.</p>
+    <img src="resources/200x200_sample_image.jpg" alt="A sample 200 x 200 image." />
+<figcaption>A sample 200 x 200 image.</figcaption> 
+</figure>
+
+<p>
+Duis consequat, mi quis vehicula tempus, urna tellus imperdiet arcu, non feugiat magna nisl ac tellus. Mauris pretium erat sit amet venenatis ultricies. Integer et nisl sodales, efficitur justo et, consectetur neque. Curabitur scelerisque, nulla vel tempus fermentum, diam leo porta ante, sit amet semper urna augue eget ipsum. In sodales vulputate finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vitae nibh vel est blandit pellentesque. Aliquam id enim non orci auctor ornare sit amet laoreet dui. Suspendisse potenti. In sollicitudin, lectus vel auctor iaculis, quam justo accumsan mauris, vitae eleifend leo odio quis augue.
+</p>
+
+
+<p>
+Maecenas suscipit felis quam. Quisque non eleifend dolor. Vestibulum ultricies nisl sed neque feugiat ultricies. Mauris pharetra cursus justo, in cursus dolor tincidunt a. Proin laoreet lobortis est, vitae feugiat justo cursus a. Donec placerat turpis felis, vel mattis erat dapibus quis. Mauris tristique, sem ornare facilisis auctor, lectus neque faucibus quam, et venenatis tortor libero sit amet felis. Curabitur sit amet metus ut felis maximus viverra. Mauris molestie elit at molestie interdum. Proin orci sem, condimentum eu dapibus luctus, ultrices non sem. Quisque porta, leo vel bibendum finibus, neque felis tempus quam, at rutrum magna diam sit amet nisl. Proin in venenatis est. Phasellus at neque sem.
+</p>
+<figure class="box w200px float-right"><p><code>&lt;figure class=&quot;box w200px <strong>float-right</strong>&quot;&gt;
+    </code></p>
+    <p>Note how text <em>flows</em> around the left-hand side of this right-floated figure box.</p>
+    
+    <img src="resources/200x200_sample_image.jpg" alt="A sample 200 x 200 image." />
+    <figcaption>A sample 200 x 200 image.</figcaption> 
+</figure>
+
+
+<p>
+Cras non neque a massa pretium viverra vitae nec dui. Donec vitae ligula lacinia nunc malesuada suscipit efficitur ut nulla. Sed orci diam, tristique non dictum varius, lobortis vitae lorem. Suspendisse semper rhoncus turpis, a pulvinar leo faucibus sed. In convallis pretium eros, ac volutpat sem porttitor eu. Morbi justo nulla, mattis non auctor sit amet, cursus et enim. Nullam posuere libero eget hendrerit venenatis. Nullam at purus at dui molestie vestibulum. Maecenas et fermentum erat. Nulla dictum nulla sit amet luctus ultrices. Praesent sem ante, imperdiet vel mauris sed, aliquet tempus nisi.</p>
+
+<span class="clearfix"></span>
+<div class="box callout3">
+<h3>Best practice</h3>
+<p>Always try to add the <strong><code>&lt;figcaption&gt;</code></strong> element inside the <code>&lt;figure&gt;</code> element. This is not only the  recommended HTML5 approach to web accessibility, but will also aid <em>all</em> users by providing extra meaning to the image. If is not appropriate to include a visual text figure caption, you should still add an &quot;alternative text&quot; to the image tag, e.g.<code> &lt;img src=&quot;myimage.jpg&quot; <strong>alt="A sample 200 x 200 image."</strong> /&gt;</code>. </p>
+<p>If an alt description is largely redundant, for example when images are used purely for decorative purposes, still add the alt attribute, but leave &quot;empty quotes&quot; (null). This marks the image such that assistive technologies know to ignore it.
+    e.g.</p>
+<p><code> &lt;img src=&quot;print-icon.jpg&quot; <strong>alt=""</strong> /&gt;</code>. </p>
+<p><strong>    Note</strong>: Have a &quot;null&quot; alt attribute is not the same as having no alt attribute.</p>
+<p>Adding  alt descriptions and  figcaptions is the first principle of web accessibility. An excellent guide to explaining how, why and best practice (with examples) is available at <a href="http://webaim.org/techniques/alttext/" target="_blank">http://webaim.org/techniques/alttext/</a>. Also see: <a href="https://dev.w3.org/html5/alt-techniques/" target="_blank">https://dev.w3.org/html5/alt-techniques/</a>.</p>
+</div>
+
+
+<span class="clearfix"></span>
+
+</section>
+<section role="region" id="layout">
+
+<h2>Layout </h2>
+<p>This template has been specifically designed so keep the underlying HTML layout clean, useable and tailored towards linear a document style for teaching notes. The HTML template uses <em>some</em> HTML5 semantic tags to define different parts of the web page. These contribute to making the document more accessible and generally provide a clearer underlying structure. Whilst there is some discussion about semantic elements in this section, it is not <em>essential</em> to focus on these as there are great usability and accessibility gains to be had by following other best practice and would be doing nothing wrong by adding content directly to the <code>&lt;main&gt;</code> block of a template page.</p>
+<h3>Semantic elements</h3>
+
+<p>A semantic element clearly describes its meaning to both the browser and the web author.</p>
+<ul>
+    <li>Examples of <strong>non-semantic</strong> elements: <code>&lt;div&gt;</code> and <code>&lt;span&gt;<br>
+    </code> Tells nothing about its content.</li>
+    <li>Examples of <strong>semantic</strong> elements:  <code>&lt;table&gt;</code> and <code>&lt;img&gt;</code><br>
+        Clearly defines its content.</li>
+</ul>
+
+<figure class="w300px float-right">
+<img src="resources/template-semantics-elements1.png" alt="Schematic of the HTML5 semantic elements within this HTML document." />
+<img src="resources/template-semantics-elements2.png" alt="Additional HTML5 semantic elements that could be used within this HTML document." />
+
+<figcaption>
+<strong>Figure 1 (top)</strong>: This templates's default HTML5 semantic structure.<br />
+<strong>Figure 2 (bottom)</strong>: Additional HTML semantic elements and how they could be applied.
+</figcaption>
+</figure>
+
+<p>
+HTML5 offers new semantic elements to define different parts of a web page. This template is defined with a number of key semantic elements: <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code> and <code>&lt;footer&gt;</code>. Together, they create the  structure in Figure 1. In addition, this guide has already covered the HTML5 semantic elements <code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code>. </p>
+
+<p>If the text and image  content for the document were added directly the <code>&lt;main&gt;</code> region, it would not be incorrect. However, there are further semantic elements to help give additional meaning to content. </p>
+<p>Within a document used for teaching materials there may be natural sections. For precisely this, HTML5 includes the  <code>&lt;section&gt;</code> element. Use of this element will not affect the styling in the default template styles, but additional styling can be added to distinguish sections if necessary.</p>
+<p>Where a piece of content is not the primary focus of the document, but is still <em>related</em> to the document, the <code>&lt;aside&gt;</code> element may be used. The aside content should be related to the surrounding content, but not dependent on it so that it could be removed from the document entirely, placed on a page of its own, and it would still make sense. An <code>&lt;aside&gt;</code> element can be be placed within the <code>&lt;main&gt;</code> region or within a <code>&lt;section&gt;</code> region.</p>
+
+<aside class="box w350px callout2 icon-info">
+<h3>Note</h3>
+Note that an <code>&lt;aside&gt;</code> semantic element can also be styled with the same styles as for boxes. For example, this callout box is using the <a>&lt;aside&gt;</a> element rather than the <code>&lt;div&gt;</code> element:<br>
+<code>&lt;aside class=&quot;box w350px callout2 icon-info&quot;&gt;</code></aside>
+
+<span class="clearfix"></span>
+
+<div class="box callout3">
+    <h3>Best practice </h3>
+    <p>The introduction of HTML5 semantic elements is a step in the right direction to provide native &quot;landmark&quot; points within a document that assistive technologies can use to describe a document. However, both modern web browsers and assistive technologies are still to fully catch up with making full use of these new semantic elements.</p>
+    <p><abbr title="Web Accessibility Initiative - Accessible Rich Internet Application">WAI-ARIA</abbr> provides the ability for web authors to specify roles for document areas (and many other things) is a way that screen readers understand. Such landmark roles have been included in the core areas of this document template for <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code> and <code>&lt;footer&gt;</code>. If you specify  additional HTML5 semantic regions for <code>&lt;section&gt;</code> or <code>&lt;aside&gt;</code>, declare them with the following role information:</p>
+    <ul>
+        <li><code>&lt;section role=&quot;region&quot;&gt;</code> ... <code>&lt;section&gt;</code></li>
+        <li><code>&lt;aside role=&quot;complementary&quot;&gt;</code> ... <code>&lt;/aside&gt;</code></li>
+        </ul>
+    <p>Further information about the relationship between HTML5 and ARIA landmarks is available at <a href="https://dequeuniversity.com/assets/html/jquery-summit/html5/slides/landmarks.html">https://dequeuniversity.com/assets/html/jquery-summit/html5/slides/landmarks.html</a>.</p>
+</div>
+
+<h3>Fixing layout problems</h3>
+<p>Sometime positions of layouts don't do the correct thing and elements "spill" out of place.  This is typically a problem when using the style for positioning boxes with "float-left" or "float-right" where the text flows around the box.</p>
+ 
+
+
+<p>For example, the &quot;right&quot; floated box here has spilled down out of the current section. Add the following element with its &quot;clearfix&quot; style just <strong>before</strong> the content which you need to &quot;clear&quot; of the problematic box. For example, inserting the  clearfix style at the end of this section (after the image figure) will force there to be clear space  before the next part of the document continues and thus correct the layout problem.</p>
+
+
+    <p><code>&lt;span class=&quot;<strong>clearfix</strong>&quot;&gt;&lt;/span&gt;</code></p>
+
+
+<figure class="box w200px float-right">
+<img src="resources/200x200_sample_image.jpg" alt="A sample 200 x 200 image." />
+<figcaption>A sample 200 x 200 image.</figcaption> 
+</figure>
+
+<!-- Inserting the <span class="clearfix"></span> tag here would fix the layout problem. -->
+</section>
+<section role="region" id="mathematics">
+
+<h2>Mathematics - Display of Mathematical notation</h2>
+<p>This template utilises a well respected javascript library to help with the presentation of mathematical notation. This library is called <a href="https://www.mathjax.org">MathJax</a> and allows users to place mathematics directly into web documents using the mathematic subset of the <a href="https://www.latex-project.org">LaTeX</a> typesetting language or the web standard <a href="https://www.w3.org/Math/">MathML</a>. This provides many benefits over older approaches such as inserting images of mathematics into documents including providing high-quality typography both on screen and for print and  accessibility advantages.</p>
+<h3>Using LaTeX notation</h3>
+
+<p>An equation displayed in a <strong>block</strong> can be delimited with <strong>double-dollar signs</strong>, e.g.</p>
+<blockquote>
+    <p class="tex2jax_ignore"><code>$$
+        \left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
+        \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+        $$</code></p>
+</blockquote>
+<p>...will render as:</p>
+<p>$$
+\left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
+ \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+$$</p>
+<p>An equation displayed <strong>inline</strong> can be delimited with <strong>single-dollar signs</strong>, e.g.</p>
+<blockquote>
+    <p class="tex2jax_ignore">This sentence contains inline mathematical notation such a <code>$1 +  \frac{q^2}{(1-q)}+\frac{q^6}{(1-q)(1-q^2)}$</code> which is part of the a Rogers-Ramanujan Identity equation.</p>
+</blockquote>
+<p class="tex2jax_ignore">...will render as:</p>
+<blockquote>
+    <p>This sentence contains inline mathematical notation such as $1 +  \frac{q^2}{(1-q)}+\frac{q^6}{(1-q)(1-q^2)}$ which is part of the a Rogers-Ramanujan Identity equation.</p>
+</blockquote>
+<h4>Escaping dollar signs</h4>
+<p>If you have a need to display dollar signs <em>without</em> them being treated as MathJax delimiters, you can wrap the text with the <strong><code>tex2jax_ignore</code></strong> style to prevent MathJax from processing the content.</p>
+<blockquote>
+    <p class="tex2jax_ignore"><code>&lt;p class="<strong>tex2jax_ignore</strong>"&gt;</code>The equipment cost between $2 and $3.50 per item.<code>&lt;/p&gt;</code></p>
+</blockquote>
+<p class="tex2jax_ignore">...or you could even apply that style to a smaller portion using a <code>&lt;span&gt;</code> tag:</p>
+<blockquote>
+    <p><code>&lt;p&gt;</code>The equipment cost between <code>&lt;span class=&quot;<strong>tex2jax_ignore</strong>&quot;&gt;</code><span class="tex2jax_ignore">$2 and $3.50</span><code>&lt;/span&gt; </code>per item.<code>&lt;/p&gt;</code></p>
+</blockquote>
+<h3>Using MathML notation</h3>
+<p>An equation that uses MathML as its source can be displayed in a block by adding <strong><code>display=&quot;block&quot;</code></strong> to the opening <code>&lt;math&gt;</code> tag to give <strong><code>&lt;math display=&quot;block&quot;&gt;</code></strong>.</p>
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mfrac>
+    <mn>1</mn>
+    <mrow>
+      <mo stretchy="false">(</mo>
+      <msqrt>
+        <mi>&#x03D5;<!-- ϕ --></mi>
+        <msqrt>
+          <mn>5</mn>
+        </msqrt>
+      </msqrt>
+      <mo>&#x2212;<!-- − --></mo>
+      <mi>&#x03D5;<!-- ϕ --></mi>
+      <mo stretchy="false">)</mo>
+      <msup>
+        <mi>e</mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <mn>2</mn>
+            <mn>5</mn>
+          </mfrac>
+          <mi>&#x03C0;<!-- π --></mi>
+        </mrow>
+      </msup>
+    </mrow>
+  </mfrac>
+  <mo>=</mo>
+  <mn>1</mn>
+  <mo>+</mo>
+  <mfrac>
+    <msup>
+      <mi>e</mi>
+      <mrow class="MJX-TeXAtom-ORD">
+        <mo>&#x2212;<!-- − --></mo>
+        <mn>2</mn>
+        <mi>&#x03C0;<!-- π --></mi>
+      </mrow>
+    </msup>
+    <mrow>
+      <mn>1</mn>
+      <mo>+</mo>
+      <mfrac>
+        <msup>
+          <mi>e</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>4</mn>
+            <mi>&#x03C0;<!-- π --></mi>
+          </mrow>
+        </msup>
+        <mrow>
+          <mn>1</mn>
+          <mo>+</mo>
+          <mfrac>
+            <msup>
+              <mi>e</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mo>&#x2212;<!-- − --></mo>
+                <mn>6</mn>
+                <mi>&#x03C0;<!-- π --></mi>
+              </mrow>
+            </msup>
+            <mrow>
+              <mn>1</mn>
+              <mo>+</mo>
+              <mfrac>
+                <msup>
+                  <mi>e</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mn>8</mn>
+                    <mi>&#x03C0;<!-- π --></mi>
+                  </mrow>
+                </msup>
+                <mrow>
+                  <mn>1</mn>
+                  <mo>+</mo>
+                  <mo>&#x2026;<!-- … --></mo>
+                </mrow>
+              </mfrac>
+            </mrow>
+          </mfrac>
+        </mrow>
+      </mfrac>
+    </mrow>
+  </mfrac>
+</math>
+
+<p>If the <code>display=&quot;block&quot;</code> parameter is left out, the MathML  display <strong>in-line</strong> as illustrated here:</p>
+<blockquote>
+<p>This expression
+    
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msqrt>
+    <mn>3</mn>
+    <mi>x</mi>
+    <mo>&#x2212;<!-- − --></mo>
+    <mn>1</mn>
+  </msqrt>
+  <mo>+</mo>
+  <mo stretchy="false">(</mo>
+  <mn>1</mn>
+  <mo>+</mo>
+  <mi>x</mi>
+  <msup>
+    <mo stretchy="false">)</mo>
+    <mn>2</mn>
+  </msup>
+</math>
+    
+    is an example of an inline equation. As you see, MathJax equations can be used this way as well, without unduly disturbing the spacing between lines. </p>
+    </blockquote>
+<p>You can also explicitly specify the inline styling by adding <strong><code>&lt;math display=&quot;inline&quot;&gt;</code></strong>.</p>
+
+
+<div class="box callout3">
+<h3>Best practice</h3>
+    <p>The MathJax library relies on your knowledge of either LaTeX or MathML.  If you need to rely on a visual (WYSIWYG) editor to author your mathematical notation, it is suggested you use one of the following options.</p>
+    <ul>
+        <li> For <strong>LaTeX</strong> use the equation editor from <strong>CodeCogs</strong>: <br>
+            <a href="http://www.codecogs.com/latex/eqneditor.php">http://www.codecogs.com/latex/eqneditor.php</a> </li>
+        <li>For  <strong>MathML</strong> use the equation editor from Hermitech Laboratory called<strong> Formulator MathML Weaver</strong>:<br>
+            <a href="http://www.mmlsoft.com/index.php/products/mathml-weaver">http://www.mmlsoft.com/index.php/products/mathml-weaver</a></li>
+    </ul>
+    <p>Try to avoid including large quantities of mathematical notation in a single HTML document as this will slow down the display of the page as MathJax attempts to render all the mathematics it finds on the page.</p>
+    <p>Ensure that the  mathematics notation you add as <strong>inline</strong> mathematics is as relatively small terms. Whilst &quot;block&quot; mathematics will line wrap to fit smaller device screens, inline mathematics will not and will cause problems with page layout on smaller screens.</p>
+    <p>If you have any specific MathJax requirements, you can tailor the configuration within the js/mathjax-config.js file within this template.</p>
+</div>
+</section>
+<section role="region" id="media">
+
+<h2> Media - Video and audio</h2>
+<h3>Incorporating video clips</h3>
+<p>Whilst adding short video clips to your pages can really enhance the materials you are presenting, a video  file is typically very large. It is recommended that you always utilise externally hosted streamed video. Most video produced within the University is hosted on <a href="https://stream.manchester.ac.uk" target="_blank">https://stream.manchester.ac.uk</a> and this service will provide you with the HTML markup to paste directly into your HTML page, though at time of writing, this HTML does not automatically scale down the embedded video area to fit smaller screens such as on mobile phones.</p>
+
+
+
+<p>Where your video source is hosted outside of the University, you may be able to paste similar HTML markup from the source, e.g. <a href="https://www.youtube.com">YouTube</a> or <a href="https://vimeo.com">Vimeo</a>. However,  the HTML snippet that these site provide does not automatically scale down the embedded video area to fit smaller screens such as on mobile phones. </p>
+
+<h3>Embedding video from YouTube and Vimeo</h3>
+<p>This template includes a small number of styles to support embedded YouTube and Vimeo with automatic scaling to support different screen sizes. For both YouTube and Vimeo video, you can use the &quot;embed&quot; code snippet these sites provide with the following small changes.</p>
+<ol>
+    <li>Paste the embed code into your HTML source and then <strong>remove</strong> the <em>width</em> and <em>height</em> attributes from the iframe tag.</li>
+    <li>Surround the<code> &lt;iframe&gt;</code> embed snippet with two <code>&lt;div&gt;</code> elements as per the following example. Note the first of these &lt;div&gt; elements has the class style &quot;<code>embed-small</code>&quot;; the second <code>&lt;div&gt;</code> element has the class style &quot;<code>embed-container</code>&quot;.</li>
+    <li>Remember to close the <code>&lt;div&gt;</code> elements after the <code>&lt;iframe&gt;</code> element i.e. with closing <code>&lt;/div&gt;</code> tags.</li>
+    </ol>
+<p>&nbsp;</p>
+<p>You can set the maximum size of the &quot;embedded&quot; video by changing the class style of the out enclosing <code>&lt;div&gt;</code> element between <code>embed-small</code>, <code>embed-medium</code> or <code>embed-large</code>. These will embed the video with the following maximum dimensions:</p>
+<table width="100%" border="1">
+    <tr>
+        <th scope="col">Embed style</th>
+        <th scope="col">Maximum dimensions (width x height) in px</th>
+    </tr>
+    <tr>
+        <td><code>embed-small</code></td>
+        <td>225 x 400 </td>
+    </tr>
+    <tr>
+        <td><code>embed-medium</code></td>
+        <td>360 x 640 </td>
+    </tr>
+    <tr>
+        <td><code>embed-large</code></td>
+        <td>480 x 853 </td>
+    </tr>
+</table>
+
+<h4>YouTube example:</h4>
+<pre class="zebra">&lt;div class=&quot;<strong>embed-small</strong>&quot;&gt;<br>	&lt;div class=&quot;<strong>embed-container</strong>&quot;&gt;<br>	&lt;iframe src=&quot;https://www.youtube.com/embed/J5rwoBDHmOs?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;1&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;<br>	&lt;/div&gt;<br>&lt;/div&gt;</pre>
+
+<div class="embed-small">
+	<div class="embed-container">
+	<iframe src="https://www.youtube.com/embed/J5rwoBDHmOs?rel=0&amp;showinfo=0" frameborder="1" allowfullscreen></iframe>
+	</div>
+</div>
+
+<h4>Vimeo example:</h4>
+<pre class="zebra">&lt;div class=&quot;<strong>embed-medium</strong>&quot;&gt;<br>	&lt;div class=&quot;<strong>embed-container</strong>&quot;&gt;<br>	&lt;iframe src=&quot;https://player.vimeo.com/video/121325821&quot; 	frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;<br>	&lt;/div&gt;<br>&lt;/div&gt;</pre>
+
+<div class="embed-medium">
+	<div class="embed-container">
+<iframe src="https://player.vimeo.com/video/121325821" 	frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	</div>
+</div>
+
+
+
+<h3>Embedding locally stored video files</h3>
+      
+<p>Where you must link directly to a local video file, most browsers provide   support for the MP4 video format. Use the <code>&lt;video&gt;</code> HTML5 markup to insert the video clip into your page:</p>
+<pre class="zebra">&lt;video width=&quot;360&quot; height=&quot;240&quot; controls&gt;
+   &lt;source src=&quot;http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4&quot;&gt;
+Your browser does not support the video tag.
+&lt;/video&gt;</pre>
+
+<video width="360" height="240" controls>
+  <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4">
+Your browser does not support the video tag.
+</video>
+
+<h3>Incorporating audio clips</h3>
+<p>Audio clips are generally small enough to be practical to directly include within your web document resources folder. Not all audio formats are supported by all browsers. However, the MP3 audio format offers the widest support by far and is therefore the recommended format at present. To include an audio clip, use the following markup.</p>
+<pre class="zebra">&lt;audio controls&gt;<br>  &lt;source src="resources/horse.mp3" type="audio/mpeg"&gt;<br>  Your browser does not support the audio tag.<br>&lt;/audio&gt;</pre>
+<audio controls>
+  <source src="resources/horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+<p>&nbsp;</p>
+<div class="box callout3">
+<h3>Best practice</h3>
+  <p>Within the <code>&lt;video&gt;</code> and <code>&lt;audio&gt;</code> tags, after the <code>&lt;source&gt;</code> declarations, include a short message for users of older browsers which don't support the particular media tag. For example, &quot;Your browser does not support the video tag.&quot; or &quot;Your browser does not support the audio tag.&quot;</p>
+  <ul>
+      <li>Further information about use of the <code>&lt;video&gt;</code> tag is available at: <a href="http://www.w3schools.com/tags/tag_video.asp" target="_blank">http://www.w3schools.com/tags/tag_video.asp</a></li>
+      <li>Further information about use of the <code>&lt;audio&gt;</code> tag is available at: <a href="http://www.w3schools.com/tags/tag_audio.asp" target="_blank">http://www.w3schools.com/tags/tag_audio.asp</a></li>
+  </ul>
+  </div>
+
+
+</section>
+<section role="region" id="flash">
+
+<h2>Flash</h2>
+
+<p>The Adobe Flash technology has provided allowed for richer interative experiences on the web since the late 1990s. However, in recent years Flash has been plagued with security issues and usage has declined. Flash is not supported on  mobile platforms and support on desktop web browsers is in decline. At the end of 2016,  full support for Flash on the popular Chrome browser will be phased out. However, there remain many teaching resources developed in Flash which are still in use. For further advice, see the Best practice section for Flash.</p>
+<p>Where  Flash resources feature in the course materials, a special script should be used to &quot;insert&quot; the Flash resource into the page which will ensure that it runs smoothly for the end user.</p>
+<p>Define a <code>&lt;div&gt;</code> element with an ID value to indicate the target location for the Flash resource. The <code>&lt;div&gt;</code> will be <em>replaced</em> with the correct markup to handle the display of the Flash resource. Beneath this <code>&lt;div&gt;</code> add the script code as indicated in the example below noting the meaning of each parameter.</p>
+
+<div id="sample-flash1" class="float-left">
+Flash is not supported on your device.
+</div>
+<script>
+swfobject.embedSWF("resources/tangramone.swf", "sample-flash1", 300, 200, 10);
+</script>
+<span class="clearfix"></span>
+<pre class="zebra">&lt;div id=&quot;<strong>sample-flash1</strong>&quot;&gt;Flash is not supported on your device.&lt;/div&gt;<br>&lt;script&gt;
+    swfobject.embedSWF(&quot;resources/tangramone.swf&quot;, &quot;<strong>sample-flash1</strong>&quot;, 300, 200, 10);<br>&lt;/script&gt;</pre>
+
+<p>Where:</p>
+<dl>
+<dt>resources/tangramone.swf = </dt><dd> <em>relative path</em> to the Flash resource;</dd>
+<dt>sample-flash1 =</dt><dd>  <em>ID</em> of the target &lt;div&gt; that the Flash resource will replace;</dd> 
+    <dt>300 =</dt><dd><em>width</em> of Flash resource;</dd>
+    <dt>200 =</dt><dd><em>height</em> of Flash resource;</dd>
+    <dt>10 =</dt><dd><em>minimum target version</em> of Flash that must be used to view the resource.</dd>
+</dl>
+
+<div class="box callout3">
+<h3>Best practice</h3>
+<p>Flash is a technology which is not native to the web browser and typically requires a browser plugin to be installed before it will display.  It also has a growing reputation for introducing security problems, accessibility issues and is also demanding on platform resources. Flash is not supported on any modern mobile device platform (largely due to it being too demanding on available mobile computing resources). For these reasons, in recent years Flash has fallen out of favour as a technology with HTML5 technologies gradually replacing it.  </p>
+<p>Best practice advice is to <em>avoid</em> using Flash  where possible and if it is utilised, provide an alternative resource which serves the same purpose.</p>
+<p>Where Flash is used, within the <code>&lt;div&gt;</code> element where the Flash resource will be inserted, include a short message for   users of  browsers which don't support Flash. For example, &quot;<span class="zebra">Flash is not supported on your device</span>.&quot;</p>
+</div>
+
+</section>
+
+<section role="region" id="custom">
+
+<h2>Custom layouts</h2>
+<p>Users are free to construct their own custom layouts by combining the set of base styles featured in this template.  This sections features small examples of this in practice.</p>
+<h3>Display of a Book reference</h3>
+
+<p>In a number of places in the course notes, reference is made to further reading from the course text book. The following HTML is suggested to display the book image aligned with a table. This uses the <code>&lt;figure&gt;</code> tag with the <strong><code>float-left</code></strong> style immediately followed by a <code>&lt;table&gt;</code> with the  <strong><code>book-reference</code></strong> CSS style. Together, the HTML for this would be:</p>
+<pre class="zebra"><code>&lt;h4&gt;Background reading&lt;/h4&gt;
+
+&lt;figure class=&quot;<strong>float-left</strong>&quot;&gt;
+    &lt;img src=&quot;background-reading.gif&quot; alt=&quot;Background Information&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;table class=&quot;<strong>book-reference</strong>&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th scope=&quot;col&quot;&gt;Topic (from the 12 Ed)&lt;/th&gt;	&lt;th scope=&quot;col&quot;&gt;Section&lt;/th&gt; &lt;th scope=&quot;col&quot;&gt;Page&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Kinetic - molecular model of an ideal gas&lt;/td&gt; &lt;td&gt;418.3&lt;/td&gt; &lt;td&gt;619&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Free-electron model of metals&lt;/td&gt; &lt;td&gt;42.5&lt;/td&gt; &lt;td&gt;1447&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+</code></pre>
+   
+   <p>...to display the following:   </p>
+<h4>Background reading</h4>
+<figure class="float-left">
+<img src="resources/background-reading.gif" alt="Background reading in Young & Freedman." >
+</figure>
+
+<table class="book-reference">
+<thead>
+  <tr>
+   <th scope="col">Topic (from the 12 Ed)</th> 
+   <th scope="col">Section</th> 
+   <th scope="col">Page</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+   <td>Kinetic - molecular model of an ideal gas</td> 
+   <td>418.3</td> 
+   <td>619</td>
+  </tr>
+  <tr>
+   <td>Free-electron model of metals</td> 
+   <td>42.5</td> 
+   <td>1447</td>
+  </tr>
+</tbody>
+</table>
+
+</section>
+
+</div><!-- #tabs -->
+
+
+<script src="resources/jquery-1.12.3.min.js"></script>
+<script src="resources/jquery-ui.min.js"></script>
+<script src="resources/template-nav.js"></script>
+<!-- InstanceEndEditable -->
+<span class="clearfix"></span>
+</main>
+
+<footer role="contentinfo"><!-- #BeginLibraryItem "/Library/site-footer.lbi" -->
+<ul class="flatten">
+<li><a href="http://www.chemistry.manchester.ac.uk" target="_blank">School of Chemistry</a></li><li><a href="http://www.manchester.ac.uk" target="_blank">University of Manchester</a></li><script>document.writeln('<li>' + getLastModifiedDateMessage() + '</li>');</script>
+</ul><!-- #EndLibraryItem --></footer>
+</body>
+<!-- InstanceEnd --></html>

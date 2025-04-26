@@ -1,0 +1,10 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- Banner - add class style to "printonly" if need only on print version -->
+<div id="banner">
+<!-- Institutional logo - can be set to only appear in print if needed -->
+<a href="http://www.manchester.ac.uk" class="logo">
+	<img src="../images_common/logos/uom.png" />
+</a>
+<!-- Site title - a title reflecting the purpose of all the notes -->
+<h1>Your project title here</h1>
+</div>
