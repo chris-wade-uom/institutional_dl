@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+/* Standards for Central DL team */
+/**
+ ** TABLE LAYOUTS
+ **/
+
+ /*Image Gallery http://www.w3schools.com/css/css_image_gallery.asp */
+
+ <style>
+ div.imggall {
+		 margin: 5px;
+		 border: 1px solid #ccc;
+		 left;
+		 width: 180px;
+ }
+
+ div.imggall:hover {
+		 border: 1px solid #777;
+ }
+
+ div.imggall img {
+		 width: 100%;
+		 height: auto;
+ }
+
+ div.descgall {
+		 padding: 15px;
+		 text-align: center;
+ }
+ </style>
+
+ /*END Image Gallery http://www.w3schools.com/css/css_image_gallery.asp */
+
+/* tabs */

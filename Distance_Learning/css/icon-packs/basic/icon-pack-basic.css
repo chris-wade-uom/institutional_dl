@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+/* DL additional icons */
+
+.box.DL-icon-assessment-summative {
+	background-image: url(DL-icon-assessment-summative.png);
+}
+
+.box.DL-icon-extra {
+	background-image: url(DL-icon-extra.png);
+}
+
+.box.DL-icon-test{
+	background-image: url(DL-icon-test.png);
+}
+
+.box.DL-icon-read{
+	background-image: url(DL-icon-read.png);
+}
+
+.box.DL-icon-write {
+	background-image: url(DL-icon-write.png);
+}
+
+.box.DL-icon-question {
+	background-image: url(DL-icon-question.png);
+}
+
+.box.DL-icon-think {
+	background-image: url(DL-icon-think.png);
+}
+
+.box.DL-icon-assessment {
+	background-image: url(DL-icon-assessment.svg);
+}
+
+.box.DL-icon-blackBoard-V2 {
+	background-image: url(DL-icon-blackBoard-V2.svg);
+}
+
+.box.DL-icon-blackboard {
+	background-image: url(DL-icon-blackboard.svg);
+}
+
+.box.DL-icon-discussion{
+	background-image: url(DL-icon-discussion.png);
+}
+
+.box.DL-icon-download {
+	background-image: url(DL-icon-download.png);
+}
+
+.box.DL-icon-learn-outcome {
+	background-image: url(DL-icon-learn-outcome.svg);
+}
+.box.DL-icon-listen {
+	background-image: url(DL-icon-listen.svg);
+}
+
+.box.DL-icon-seminar {
+	background-image: url(DL-icon-seminar.svg);
+}
+.box.DL-icon-summary {
+	background-image: url(DL-icon-summary.svg);
+}
+
+.box.DL-icon-test-summative{
+	background-image: url(DL-icon-test-summative.png);
+}
+
+.box.DL-icon-time {
+	background-image: url(DL-icon-time.svg);
+}
+
+.box.DL-icon-watch {
+	background-image: url(DL-icon-watch.png);
+}
+
+.box.DL-icon-watch-summative {
+	background-image: url(DL-icon-watch-summative.svg);
+}
+
+.box.DL-icon-write-summative {
+	background-image: url(DL-icon-write-summative.png);
+}

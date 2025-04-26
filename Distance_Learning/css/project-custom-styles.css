@@ -1,0 +1,566 @@
+@charset "utf-8";
+/* CSS Document */
+/* Standards for Central DL team */
+/**
+ ** TABLE LAYOUTS
+ **/
+
+table th,
+table thead th,
+table thead td  {
+	text-align: left;
+	padding: 3px 5px;
+}
+
+table.book-reference {
+	border-collapse: collapse;
+	min-width: 40%;
+}
+table.book-reference thead th,
+table.book-reference thead td  {
+	padding: 5px;
+	margin: 3px 0;
+	background-color: #CACACA;
+}
+table.book-reference td {
+	padding: 3px;
+	background-color: #EEE;
+}
+table.book-reference th,
+table.book-reference td {
+	border: 1px solid #999;
+}
+
+table.book-reference p {
+	margin: 0;
+}
+
+/*DL specific styles for articles, learning pathways, Reading list */
+
+/* box styles deviating from colours in main box styles css */
+
+/*line 13 */
+aside.box {
+ 	border: 1px solid #D50099;
+	border-width: 1px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/*line 13 */
+.box.callout2 h1, .box.callout2 h2, .box.callout2 h3, .box.callout2 h4, .box.callout2 h5, .box.callout2 h6 {
+	color: #660099;}
+
+/* line 92*/
+.box.callout3 {
+	border-width: 3px;
+	border-color: #FFCC33;
+	border-style: dashed;
+	background-color: #ffffff;
+}
+
+/* article content box */
+.box.calloutDl3 {
+	border-width: 1px;
+	border-color: #F2F0F0;
+	background-color: #f6f3f3;
+	border-style: solid;
+	padding: 2.5px;
+	margin: 1.6em 0;
+	-webkit-box-shadow: 5px 5px 3px 0px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    5px 5px 3px 0px rgba(50, 50, 50, 0.3);
+	box-shadow:         5px 5px 3px 0px rgba(50, 50, 50, 0.3);
+	float: left;
+	width: 600px;
+}
+
+/*index page content boxes*/
+.box.calloutDl5 {
+	border-width: 1px;
+	border-color: #ffffff;
+	border-style: solid;
+	background-color: #ffffff;
+	padding: 2.5px;
+	margin: 1.8em 0;
+	font-weight: 600;
+	font-size: 14px; /* fallback */
+	font-size: 1.4em;	
+}
+.indexlink {
+	color: #cc0099;
+	
+	
+}
+
+
+
+/* learning objective references style */
+
+.obj {
+	color: #e9d068;
+	border-left: 4px solid rgba(255,204,51, 0.3);
+	display: table-cell;
+	font-weight: 500;
+	font-size: 10px; /*fallback */
+	font-size: 1.0em;
+	float:right;
+	background-color: #FDFAEE;
+}
+
+
+/* theme-base styles */
+
+/* main tag differences from main styles theme-base.css */
+
+/* line 35 (colour) */
+main h1 {
+	margin: 0.5em 0 0.5em 0;
+    font-weight: normal;
+    position: relative;
+    text-shadow: 0 -1px rgba(0,0,0,0.6);
+    font-size: 28px; /* fallback */
+	font-size: 2.8rem;
+	line-height: 32px; /* fallback */
+    line-height: 3.2rem;
+    background: #660099;
+    padding: 15px;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: inset 0 0 5px rgba(53,86,129, 0.5);
+
+}
+
+/*line 51 (colour)*/
+main h2 {
+	color: #660099;
+	border-radius: 0px 10px 10px 0px;
+	border: 1px solid rgba(109,0,157, 0.3);
+	border-left: 5px solid rgba(147,96,156, 0.3);
+}
+
+/*line 67 (colour)*/
+main h3 {
+	color: #660099;
+	border-bottom: 1px solid rgba(149,149,151, 0.3);
+}
+
+/* line 80 (colour)*/
+
+main h4 {
+	color: #5b5b5b;
+	border-left: 4px solid rgba(204,0,153, 0.3);
+}
+
+/* line 96 (colour)*/
+main h5 {
+	color: #D50099;
+	font-size: 15px; /* fallback */
+	font-size: 1.5rem;
+}
+
+/* line 103 (colour)*/
+main h6 {
+	color: #000000;
+	font-size: 14px; /* fallback */
+	font-size: 1.4rem;
+	margin: 1.5em 0;
+}
+
+main h7 {
+	color: #254e57;
+	font-weight: 600;
+	font-size: 15px; /* fallback */
+	font-size: 1.5rem;
+	margin: 1.5em 0;
+}
+
+/* line 140 (colour) */
+pre {
+    background-color: #F9F9F9;
+    border: 1px dashed #93609c;
+    line-height: 1.1em;
+	margin: 1.5em 0;
+	-moz-tab-size: 4;
+    tab-size: 4;
+}
+
+ 
+/* learning objective styles */
+
+dl.learning {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+dl.learning dt {
+  float: left;
+  width: 10%;
+  /* adjust the width; make sure the total of both is 100% */
+  padding: 0;
+  margin: 0;
+  color: #ecbc2f;
+  background-color: #99999;
+}
+dl.learning dd {
+  float: left;
+  width: 90%;
+  /* adjust the width; make sure the total of both is 100% */
+  padding: 0;
+  margin: 0;
+}
+
+.tip {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background: transparent;
+  border: 10px solid #ccc;
+}
+
+.tip-up {
+  top: -25px; /* Same as body margin top + border */
+  left: 10px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+.tip-down {
+  bottom: -25px;
+  left: 10px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;  
+}
+
+.tip-left {
+  top: 10px;
+  left: -25px;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;  
+}
+
+.tip-right {
+  top: 10px;
+  right: -25px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;  
+}
+
+.dialogbox .body {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin: 10px 10px;
+  padding: 5px;
+  background-color: #DADADA;
+  border-radius: 3px;
+  border: 5px solid #ccc;
+}
+
+.body .message {
+  min-height: 30px;
+  border-radius: 3px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #797979;
+}
+
+/* used to add comments for tutors - hightlighted yellow BG */
+p.highlight {
+	background-color: #FFFF00;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+math {
+	font-family: 'Helvetica Neue', 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+/* Theme-custom styles */
+
+/* line 27 (colour) */
+header #banner h1 {
+	margin: 0;
+	padding: 0;
+    text-shadow: none;
+	border-radius: none;
+    box-shadow: none;
+	background:none;
+    font-size: 32px; /* fallback */
+	font-size: 3.2rem;
+    color: #254e57;
+}
+
+/* feedback buttons */
+.dl-buttons {
+    border-radius: 10px;
+    background: #660099;
+    padding: 7px;
+	margin: -3px;
+	height: 20px;
+	font-size: 0.9em;
+}
+ 
+.dl-buttons a:link{
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: none;
+}
+
+.dl-buttons a[href^="https:"]:link, .dl-buttons a[href^="http:"]:link{
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: none;
+	background-image: none;
+	padding-right: 0;
+}
+
+.dl-buttons a:visited{
+	color: #FFFFFF;
+	text-decoration: none;
+}             
+
+.dl-buttons a:hover{
+	color: #CCCCCC;
+	text-decoration: none;
+	background-color: #660099 !important;
+	border: none;
+	-webkit-transition:none !important;
+	-moz-transition:none !important;
+	-o-transition:none !important;
+	transition:none !important;
+}             
+
+.dl-buttons a:focus{
+	color: #CCCCCC;
+	text-decoration: none;
+	background-color: #660099 !important;
+	border: none;
+	-webkit-transition:none !important;
+	-moz-transition:none !important;
+	-o-transition:none !important;
+	transition:none !important;
+}             
+
+.dl-buttons a:active{
+	color: #FFFFFF;
+	text-decoration: none;
+}           
+
+/*
+.pin {
+  background-color: #aaa;
+  display: block;
+  height: 32px;
+  width: 2px;
+  position: absolute;
+  left: 50%;
+  top: -16px;
+  z-index: 1;
+}
+.pin:after {
+  background-color: #A31;
+  background-image: radial-gradient(25% 25%, circle, hsla(0,0%,100%,.3), hsla(0,0%,0%,.3));
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.1),
+              inset 3px 3px 3px hsla(0,0%,100%,.2),
+              inset -3px -3px 3px hsla(0,0%,0%,.2),
+              23px 20px 3px hsla(0,0%,0%,.15);
+  content: '';
+  height: 12px;
+  left: -5px;
+  position: absolute;
+  top: -10px;
+  width: 12px;
+}
+
+.pin:before {
+  background-color: hsla(0,0%,0%,0.1);
+  box-shadow: 0 0 .25em hsla(0,0%,0%,.1);
+  content: '';
+
+  height: 24px;
+  width: 2px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+
+  transform: rotate(57.5deg);
+  -moz-transform: rotate(57.5deg);
+  -webkit-transform: rotate(57.5deg);
+  -o-transform: rotate(57.5deg);
+  -ms-transform: rotate(57.5deg);
+
+  transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+}
+*/
+
+/*Previous and next */
+
+.prev, .next  {
+	font-size: 13px; /* fallback */
+	font-size: 1.3rem;
+	color: D50099;
+}
+
+.prev {
+	float: left;
+}
+
+.next{
+	float: right ;
+}
+
+
+/* --- Accordion ----*/
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+   	margin: 1.5em 0 0.5em 0;
+    font-weight: 600;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.2);
+    position: relative;
+	font-size: 20px; /* fallback */
+    font-size: 2rem;
+	line-height: 22px; /* fallback */
+    line-height: 2.2rem;
+	padding: 5px 8px 5px 5px;
+    color: #660099;
+	border-radius: 0px 10px 10px 0px;
+	border: 1px solid rgba(109,0,157, 0.3);
+	border-left: 5px solid rgba(147,96,156, 0.3);
+	width: 100%;
+	background-color: #fff;
+    cursor: pointer;
+    padding-bottom: 4px;
+    text-align: left;
+    transition: 0.4s;
+}
+
+ #video {
+   color: #5b5b5b;
+   font-weight: 600;
+   font-size: 14px; /* fallback */
+    font-size: 1.4rem;
+	border-radius: 0px 0px 0px 0px;
+	border: 0px;
+	border-left: 0px;
+}
+/* id="video" on accordion button in html file */
+
+#subAccordion {
+   color: #D50099;
+   font-weight: 500;
+   font-size: 16px; /* fallback */
+   font-size: 1.6rem;
+	border-radius: 0px 0px 0px 0px;
+	line-height: 22px; /* fallback */
+    line-height: 2.2rem;
+	border: solid rgba(213,0,153 0.3);
+	border-top: 1px;
+	border-left: 1px;
+	border-right: 1px;
+}
+/* id="subAccordion" in html file */
+
+
+    
+button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+
+
+/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
+div.panel.show {
+    display: block;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.7s ease-in-out;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 100%; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+
+/* tabs */
+
+#main-navigation{
+	z-index: 100;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+header #options{
+	width: 100%;
+	display: block;
+	padding-right: 4px;
+}
+
+#progress{
+	color: #999;
+	float: left;
+	padding-left: 4px;
+	color: #555555;
+	overflow: hidden;
+	display: block;
+}
+
+#progress-links{
+	float:right;
+	padding-right: 4px;
+	color: #555555;
+}
+
+ol.decimal-index > li.skip::before{
+	content:'';
+}
+
+
+ol.decimal-index{
+	counter-reset: start 1;
+}
+
+ol.decimal-index li ol{
+	counter-reset: start 0;
+}
+
+ol.decimal-index li ol li::before {
+
+	content: counters(start, ".");
+	counter-increment: start;
+}
+
