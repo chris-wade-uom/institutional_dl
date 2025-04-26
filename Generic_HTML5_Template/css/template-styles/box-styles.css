@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* Standards created by Stuart Anderson FSE elearning team */
+/***
+ *** PROVIDES A FLEXIBLE FRAMEWORK FOR ADDING STYLED CALLOUT BOXES AND ASIDES
+ ***/
+
+
+/***
+ *** PAGE BOXES, IMAGES AND CALLOUTS
+ ***/
+div.box,
+figure.box,
+aside.box {
+ 	border: 1px solid #355681;
+	border-width: 1px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+div.box,
+figure.box,
+aside.box {
+	box-sizing: border-box;
+}
+div.box,
+aside.box {
+	padding: 10px;
+	min-width: 200px;
+	min-height: 50px;
+}
+
+/* Font sizing shouldn't really be part of this CSS file, 
+   as creates dependency with core font sizes.  Unavoidable though. */
+div.box,
+figure.box,
+aside.box,
+div.box p,
+figure.box p,
+aside.box p {
+	font-size: 14px; /* fallback */
+	font-size: 1.4rem;
+	line-height: 20px; /* fallback */
+	line-height: 2rem;
+}
+
+figure.box > :not(img):not(object):not(video) {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+figure.box img {
+	display: block; 
+}
+
+.box h1, .box h2, .box h3, .box h4, .box h5, .box h6 {
+	color: #000;
+	font-weight: bold;
+	background-color: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+
+.box.callout1,
+.box.callout2,
+.box.warning1 {
+	-webkit-box-shadow: 5px 5px 3px 0px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    5px 5px 3px 0px rgba(50, 50, 50, 0.3);
+	box-shadow:         5px 5px 3px 0px rgba(50, 50, 50, 0.3);
+	
+	-webkit-print-color-adjust: exact; /* Only supported on Chrome */
+}
+
+.box.callout1 {
+	border-width: 2px;
+	background-color: #eff3f5;
+}
+
+
+.box.callout2 {
+	border-width: 4px;
+	border-color: #666;
+	background-color: #EEE;
+}
+.box.callout2 h1, .box.callout2 h2, .box.callout2 h3, .box.callout2 h4, .box.callout2 h5, .box.callout2 h6 {
+	color: #0152B3;
+}
+
+.box.callout3 {
+	border-width: 3px;
+	border-color: #355681;
+	border-style: dashed;
+	background-color: transparent;
+}
+.box.callout3 {
+	padding: 10px;
+}
+
+.box.warning1 {
+	border-width: 3px;
+	background-color: #fefabc;
+    border-color: #faebcc;
+}
+.box.warning1,
+.box.warning1 h1, .box.warning1 h2, .box.warning1 h3, .box.warning1 h4, .box.warning1 h5, .box.warning1 h6 {
+	color: #4a3b20;
+	margin-top: 5px;
+}
+
+
+
+
+
+/* Warning boxes which contain spacing to accommodate an icon */
+.box[class*="icon-"] {
+	position: relative;
+	padding-left: 110px;
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	min-height: 85px;
+}
+
+
+/* Alignment styles */
+.box {
+	margin: 14px 5px;
+}
+box.float-left,
+box.float-right,
+figure.float-left,
+figure.float-right {
+	margin: 10px 20px;
+}
+
+
+/* Width styles as percentages */
+.w90percent {
+	max-width: 90%;
+}
+.w75percent {
+	max-width: 75%;
+}
+.w50percent {
+	max-width: 50%;
+}
+.w25percent {
+	max-width: 25%;
+}
+
+/* Width styles as pixels */
+.w950px {
+	max-width: 950px;
+}
+.w900px {
+	max-width: 900px;
+}
+.w850px {
+	max-width: 850px;
+}
+.w800px {
+	max-width: 800px;
+}
+.w750px {
+	max-width: 750px;
+}
+.w700px {
+	max-width: 700px;
+}
+.w650px {
+	max-width: 650px;
+}
+.w600px {
+	max-width: 600px;
+}
+.w550px {
+	max-width: 550px;
+}
+.w500px {
+	max-width: 500px;
+}
+.w450px {
+	max-width: 450px;
+}
+.w400px {
+	max-width: 400px;
+}
+.w350px {
+	max-width: 350px;
+}
+.w300px {
+	max-width: 300px;
+}
+.w250px {
+	max-width: 250px;
+}
+.w200px {
+	max-width: 200px;
+}
+
+
+
+/***
+ *** MEDIA STYLES LAYOUT
+ ***/
+@media print {
+    .box{
+		page-break-inside: avoid;
+	}
+}
+  
+/* Below Portrait tablet (mobile phones) */
+@media (max-width: 550px) { 
+    .box[class*="icon-"] {
+        padding-left: 70px;
+        background-size: 55px auto; 
+		background-position: 7px 10px;
+    }
+}
+@media only screen and (max-width: 550px) { 
+    .box[class*="icon-"] {
+		min-width: 90%;
+    }
+}
+/* Portrait tablet  */
+@media (min-width: 551px) { 
+    .box[class*="icon-"] {
+        padding-left: 75px;
+        background-size: 60px auto;
+		background-position: 7px 10px; 
+    }
+}
+ 
+/* Picked up by both landscape and normal and large desktops */
+@media (min-width: 979px) {
+    .box[class*="icon-"] {
+        padding-left: 75px;
+        background-size: 60px auto; 
+		background-position: 7px 10px; 
+    }
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+ 
+}

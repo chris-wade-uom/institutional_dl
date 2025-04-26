@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+/* Standards created by Stuart Anderson FSE elearning team */
+
+
+#nav-menu .toggle, 
+#nav-menu [id^=drop] {
+	display: none; /* hides from screen readers and visual readers */
+}
+
+
+
+#nav-menu {
+	position: relative;
+	z-index: 10;
+	margin: 0;
+	padding: 0;
+}
+
+#nav-menu:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#nav-menu ul {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+/* Giving a background-color to the nav container. */
+#nav-menu,
+#nav-menu .toggle,
+#nav-menu ul li {
+	background-color: #355D8F;
+}
+
+#nav-menu ul li ul ul li {
+	background-color: #5686C0;
+	z-index: 11;
+}
+#nav-menu ul li.home {
+	background-color: #3E6DA8;
+}
+
+#nav-menu ul li {
+	margin: 0px;
+	display: inline-block;
+	float: left;
+}
+
+#nav-menu {
+	-webkit-box-shadow: 3px 3px 3px 0px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    3px 3px 3px 0px rgba(50, 50, 50, 0.3);
+	box-shadow:         3px 3px 3px 0px rgba(50, 50, 50, 0.3);
+}
+
+#nav-menu a {
+	display: block;
+	padding: 0 10px;
+	color: #FFF;
+	font-size: 1.6rem;
+	line-height: 4rem;
+	text-decoration: none;
+}
+
+#nav-menu ul li ul li:hover { background: #000000; }
+
+#nav-menu a:hover { background-color: #000000; }
+
+#nav-menu ul ul {
+	display: none;
+	position: absolute;
+	top: 40px;
+}
+
+#nav-menu ul li:hover > ul { display: inherit; }
+
+#nav-menu ul ul li {
+	width: 235px;
+}
+#nav-menu ul ul li {
+	float: none;
+	display: list-item;
+	position: relative;
+}
+
+#nav-menu ul ul ul li {
+	position: relative;
+	top: -40px;
+	left: 225px;
+}
+
+
+#nav-menu ul.menu > li > a:after,
+#nav-menu li > label.toggle:after,
+#nav-menu li > a:after {
+	padding-left: 3px;
+	display: inline-block;
+}
+#nav-menu ul.menu > li > a:after { content: '▾'; color: #5686C0 } /* top menu */
+#nav-menu li > label.toggle:after,
+#nav-menu li > a:after { content: '▶'; }
+
+
+
+
+#nav-menu li > a:only-child:after { content: ''; } /* menus with no sub-menus */
+#nav-menu ul.menu > li > a:only-child:after { content: ''; padding: 0; }
+
+
+/* Media Queries
+--------------------------------------------- */
+
+/* Below Portrait tablet (mobile phones) */
+@media (max-width: 550px) { 
+	#nav-menu {
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		border-left: none;
+		border-right: none;
+	}
+}
+
+/* Tablets and below  */
+@media all and (max-width : 768px) {
+	
+	#nav-menu { margin: 0; }
+	
+	#nav-menu .toggle + a,
+	#nav-menu ul.menu { display: none; }
+	
+	#nav-menu .toggle, 
+	#nav-menu ul.menu > li > a:only-child {
+	  display: block;
+	  padding: 0 20px;
+	  color: #FFF;
+	  font-size: 2.0rem;
+	  line-height: 6.0rem;
+	  text-decoration: none;
+	  border: none;
+	}
+	
+	#nav-menu .toggle:hover { background-color: #000000; }
+	
+	#nav-menu [id^=drop]:checked + ul { display: block; }
+	
+	#nav-menu ul li {
+	  display: block;
+	  width: 100%;
+	}
+	
+	#nav-menu ul ul .toggle,
+	#nav-menu ul ul a { padding: 0 40px; }
+	
+	#nav-menu ul ul ul a { padding: 0 80px; }
+	
+	#nav-menu a:hover,
+	#nav-menu ul ul ul a { background-color: #000000; }
+	
+	#nav-menu ul li ul li .toggle,
+	#nav-menu ul ul a { background-color: #212121; }
+	
+	#nav-menu ul ul {
+	  float: none;
+	  position: static;
+	  color: #ffffff;
+	}
+	
+	#nav-menu ul ul li:hover > ul,
+	#nav-menu ul li:hover > ul { display: none; }
+	
+	#nav-menu ul ul li {
+	  display: block;
+	  width: 100%;
+	}
+	
+	#nav-menu ul ul ul li { position: static;	}
+}
+
+@media all and (max-width : 330px) {
+	#nav-menu ul li {
+	  display: block;
+	  width: 94%;
+	}
+}

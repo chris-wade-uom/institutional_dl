@@ -1,0 +1,51 @@
+@charset "utf-8";
+/***
+ *** UTILITY STYLES TO AID GENERAL LAYOUT
+ *** (INSPIRED BY WWW.MANCHESTER.AC.UK TEMPLATES 2016)
+ ***/
+/* Standards created by Stuart Anderson FSE elearning team */
+
+/*------------------------------------------------------------------------------------------------------------*/
+/*	HELPER CLASSES														  						  	  	  	  */
+/*------------------------------------------------------------------------------------------------------------*/
+
+
+/* Float collapse fix */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+/* Text */
+.capitalise						{text-transform:uppercase}
+
+/* Alignment */
+.text-left						{text-align:left!important}
+.text-right						{text-align:right!important}
+.text-center					{text-align:center!important}
+.img-top						{vertical-align:top} /* overrides default baseline alignment */
+
+/* Layout */
+.center 						{margin-left: auto!important; margin-right: auto!important;}
+.float-left 					{float: left;}
+.float-right 					{float: right;}
+
+/* Override rules */
+.no-float						{float:none!important}
+.no-background					{background:none!important}	
+.no-margin						{margin:0!important}
+.no-padding						{padding:0!important}
+
+.off-screen						{position:absolute; top:-9999px; left:-9999px}
+.hidden							{display: none !important; visibility: hidden;}
+.no-scroll						{overflow:hidden;}
+
+.printonly						{display: none;}
+@media only print {	.printonly	{display: inherit;}}
