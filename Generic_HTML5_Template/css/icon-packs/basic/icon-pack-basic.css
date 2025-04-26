@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+.box.icon-info {
+	background-image: url(icon-info.svg);
+}
+
+.box.icon-question {
+	background-image: url(icon-question.svg);
+}
+
+.box.icon-cancel {
+	background-image: url(icon-cancel.svg);
+}
+
+.box.icon-stop {
+	background-image: url(icon-stop.svg);
+}
+
+.box.icon-warning {
+	background-image: url(icon-warning.svg);
+}
