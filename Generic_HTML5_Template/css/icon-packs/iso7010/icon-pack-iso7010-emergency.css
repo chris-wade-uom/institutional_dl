@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Emergency exit (left hand) */
+.box.icon-ISO7010-E001, .box.icon-iso7010-e001, .box.icon-iso7010-emergency-exit-left {
+	background-image: url('emergency/ISO 7010 E001.svg');
+}
+
+/* Emergency exit (right hand) */
+.box.icon-ISO7010-E002, .box.icon-iso7010-e002, .box.icon-iso7010-emergency-exit-right {
+	background-image: url('emergency/ISO 7010 E002.svg');
+}
+
+/* First aid */
+.box.icon-ISO7010-E003, .box.icon-iso7010-e003, .box.icon-iso7010-first-aid {
+	background-image: url('emergency/ISO 7010 E003.svg');
+}
+
+/* Emergency telephone */
+.box.icon-ISO7010-E004, .box.icon-iso7010-e004, .box.icon-iso7010-emergency-telephone {
+	background-image: url('emergency/ISO 7010 E004.svg');
+}
+
+/* Evacuation assembly point */
+.box.icon-ISO7010-E007, .box.icon-iso7010-e007, .box.icon-iso7010-evacuation-assembly-point {
+	background-image: url('emergency/ISO 7010 E007.svg');
+}
+
+/* Break to obtain access */
+.box.icon-ISO7010-E008, .box.icon-iso7010-e008, .box.icon-iso7010-break-to-obtain-access {
+	background-image: url('emergency/ISO 7010 E008.svg');
+}
+
+/* Doctor */
+.box.icon-ISO7010-E009, .box.icon-iso7010-e009, .box.icon-iso7010-doctor {
+	background-image: url('emergency/ISO 7010 E009.svg');
+}
+
+/* Automated external heart defibrillator */
+.box.icon-ISO7010-E010, .box.icon-iso7010-e010, .box.icon-iso7010-heart-defibrillator {
+	background-image: url('emergency/ISO 7010 E010.svg');
+}
+
+/* Eyewash station */
+.box.icon-ISO7010-E011, .box.icon-iso7010-e011, .box.icon-iso7010-eyewash-station {
+	background-image: url('emergency/ISO 7010 E011.svg');
+}
+
+/* Safety shower */
+.box.icon-ISO7010-E012, .box.icon-iso7010-e012, .box.icon-iso7010-safety-shower {
+	background-image: url('emergency/ISO 7010 E012.svg');
+}
+
+/* Stretcher */
+.box.icon-ISO7010-E013, .box.icon-iso7010-e013, .box.icon-iso7010-stretcher {
+	background-image: url('emergency/ISO 7010 E013.svg');
+}
+
+/* Emergency window with escape ladder */
+.box.icon-ISO7010-E016, .box.icon-iso7010-e016, .box.icon-iso7010-escape-ladder {
+	background-image: url('emergency/ISO 7010 E016.svg');
+}
+
+/* Rescue window */
+.box.icon-ISO7010-E017, .box.icon-iso7010-e017, .box.icon-iso7010-rescue-window {
+	background-image: url('emergency/ISO 7010 E017.svg');
+}
+
+/* Turn anticlockwise to open */
+.box.icon-ISO7010-E018, .box.icon-iso7010-e018, .box.icon-iso7010-turn-anticlockwise-to-open {
+	background-image: url('emergency/ISO 7010 E018.svg');
+}
+
+/* Turn clockwise to open */
+.box.icon-ISO7010-E019, .box.icon-iso7010-e019, .box.icon-iso7010-turn-clockwise-to-open {
+	background-image: url('emergency/ISO 7010 E019.svg');
+}

@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* General prohibition sign */
+.box.icon-ISO7010-P001, .box.icon-iso7010-p001, .box.icon-iso7010-prohibition-sign {
+	background-image: url('prohibition/ISO 7010 P001.svg');
+}
+
+/* No smoking */
+.box.icon-ISO7010-P002, .box.icon-iso7010-p002, .box.icon-iso7010-no-smoking {
+	background-image: url('prohibition/ISO 7010 P002.svg');
+}
+
+/* No open flame; Fire, open ignition source and smoking prohibited */
+.box.icon-ISO7010-P003, .box.icon-iso7010-p003, .box.icon-iso7010-no-open-flame {
+	background-image: url('prohibition/ISO 7010 P003.svg');
+}
+
+/* No thoroughfare */
+.box.icon-ISO7010-P004, .box.icon-iso7010-p004, .box.icon-iso7010-no-thoroughfare {
+	background-image: url('prohibition/ISO 7010 P004.svg');
+}
+
+/* Not drinking water */
+.box.icon-ISO7010-P005, .box.icon-iso7010-p005, .box.icon-iso7010-not-drinking-water {
+	background-image: url('prohibition/ISO 7010 P005.svg');
+}
+
+/* No access for forklift trucks and other industrial vehicles */
+.box.icon-ISO7010-P006, .box.icon-iso7010-p006, .box.icon-iso7010-no-access-industrial-vehicles {
+	background-image: url('prohibition/ISO 7010 P006.svg');
+}
+
+/* No access for people with active implanted cardiac devices */
+.box.icon-ISO7010-P007, .box.icon-iso7010-p007, .box.icon-iso7010-no-access-implanted-cardiac-devices {
+	background-image: url('prohibition/ISO 7010 P007.svg');
+}
+
+/* No metallic articles or watches */
+.box.icon-ISO7010-P008, .box.icon-iso7010-p008, .box.icon-iso7010-no-metallic-articles {
+	background-image: url('prohibition/ISO 7010 P008.svg');
+}
+
+/* Do not touch */
+.box.icon-ISO7010-P010, .box.icon-iso7010-p010, .box.icon-iso7010-do-not-touch {
+	background-image: url('prohibition/ISO 7010 P010.svg');
+}
+
+/* Do not extinguish with water */
+.box.icon-ISO7010-P011, .box.icon-iso7010-p011, .box.icon-iso7010-do-not-extinguish-with-water {
+	background-image: url('prohibition/ISO 7010 P011.svg');
+}
+
+/* No heavy load */
+.box.icon-ISO7010-P012, .box.icon-iso7010-p012, .box.icon-iso7010-no-heavy-load {
+	background-image: url('prohibition/ISO 7010 P012.svg');
+}
+
+/* No activated mobile phones */
+.box.icon-ISO7010-P013, .box.icon-iso7010-p013, .box.icon-iso7010-no-mobile-phones {
+	background-image: url('prohibition/ISO 7010 P013.svg');
+}
+
+/* No access for people with metallic implants */
+.box.icon-ISO7010-P014, .box.icon-iso7010-p014, .box.icon-iso7010-no-access-metallic-implants {
+	background-image: url('prohibition/ISO 7010 P014.svg');
+}
+
+/* No reaching in */
+.box.icon-ISO7010-P015, .box.icon-iso7010-p015, .box.icon-iso7010-no-reaching-in {
+	background-image: url('prohibition/ISO 7010 P015.svg');
+}
+
+/* No pushing */
+.box.icon-ISO7010-P017, .box.icon-iso7010-p017, .box.icon-iso7010-no-pushing {
+	background-image: url('prohibition/ISO 7010 P017.svg');
+}
+
+/* No sitting */
+.box.icon-ISO7010-P018, .box.icon-iso7010-p018, .box.icon-iso7010-no-sitting {
+	background-image: url('prohibition/ISO 7010 P018.svg');
+}
+
+/* No stepping on surface */
+.box.icon-ISO7010-P019, .box.icon-iso7010-p019, .box.icon-iso7010-no-stepping-on-surface {
+	background-image: url('prohibition/ISO 7010 P019.svg');
+}
+
+/* Do not use lift in the event of fire */
+.box.icon-ISO7010-P020, .box.icon-iso7010-p020, .box.icon-iso7010-do-not-use-lift-in-fire {
+	background-image: url('prohibition/ISO 7010 P020.svg');
+}
+
+/* No dogs */
+.box.icon-ISO7010-P021, .box.icon-iso7010-p021, .box.icon-iso7010-no-dogs {
+	background-image: url('prohibition/ISO 7010 P021.svg');
+}
+
+/* No eating or drinking */
+.box.icon-ISO7010-P022, .box.icon-iso7010-p022, .box.icon-iso7010-no-eating-or-drinking {
+	background-image: url('prohibition/ISO 7010 P022.svg');
+}
+
+/* Do not obstruct */
+.box.icon-ISO7010-P023, .box.icon-iso7010-p023, .box.icon-iso7010-do-not-obstruct {
+	background-image: url('prohibition/ISO 7010 P023.svg');
+}
+
+/* Do not walk or stand here */
+.box.icon-ISO7010-P024, .box.icon-iso7010-p024, .box.icon-iso7010-do-not-walk-here {
+	background-image: url('prohibition/ISO 7010 P024.svg');
+}
+
+/* Do not use this incomplete scaffold */
+.box.icon-ISO7010-P025, .box.icon-iso7010-p025, .box.icon-iso7010-do-not-use-incomplete-scaffold {
+	background-image: url('prohibition/ISO 7010 P025.svg');
+}
+
+/* Do not use this device in a bathtub, shower or water-filled reservoir */
+.box.icon-ISO7010-P026, .box.icon-iso7010-p026, .box.icon-iso7010-do-not-use-device-in-water {
+	background-image: url('prohibition/ISO 7010 P026.svg');
+}
+
+/* Do not use this lift for people */
+.box.icon-ISO7010-P027, .box.icon-iso7010-p027, .box.icon-iso7010-do-not-use-lift-for-people {
+	background-image: url('prohibition/ISO 7010 P027.svg');
+}
+
+/* Do not wear gloves */
+.box.icon-ISO7010-P028, .box.icon-iso7010-p028, .box.icon-iso7010-do-not-wear-gloves {
+	background-image: url('prohibition/ISO 7010 P028.svg');
+}
+
+/* No photography */
+.box.icon-ISO7010-P029, .box.icon-iso7010-p029, .box.icon-iso7010-no-photography {
+	background-image: url('prohibition/ISO 7010 P029.svg');
+}
+
+/* Do not tie knots in rope */
+.box.icon-ISO7010-P030, .box.icon-iso7010-p030, .box.icon-iso7010-do-not-tie-knots {
+	background-image: url('prohibition/ISO 7010 P030.svg');
+}
+
+/* Do not alter the state of the switch */
+.box.icon-ISO7010-P031, .box.icon-iso7010-p031, .box.icon-iso7010-do-not-alter-switch-state {
+	background-image: url('prohibition/ISO 7010 P031.svg');
+}
+
+/* Do not use for face grinding */
+.box.icon-ISO7010-P032, .box.icon-iso7010-p032, .box.icon-iso7010-do-not-use-for-face-grinding {
+	background-image: url('prohibition/ISO 7010 P032.svg');
+}
+
+/* Do not use for wet grinding */
+.box.icon-ISO7010-P033, .box.icon-iso7010-p033, .box.icon-iso7010-do-not-use-for-wet-grinding {
+	background-image: url('prohibition/ISO 7010 P033.svg');
+}
+
+/* Do not use with hand-held grinding machine */
+.box.icon-ISO7010-P034, .box.icon-iso7010-p034, .box.icon-iso7010-do-not-use-with-hand-held-grinding-machine {
+	background-image: url('prohibition/ISO 7010 P034.svg');
+}

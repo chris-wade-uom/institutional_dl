@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Fire extinguisher */
+.box.icon-ISO7010-F001, .box.icon-iso7010-f001, .box.icon-iso7010-fire-extinguisher {
+	background-image: url('fire/ISO 7010 F001.svg');
+}
+
+/* Fire hose reel */
+.box.icon-ISO7010-F002, .box.icon-iso7010-f002, .box.icon-iso7010-fire-hose-reel {
+	background-image: url('fire/ISO 7010 F002.svg');
+}
+
+/* Fire ladder */
+.box.icon-ISO7010-F003, .box.icon-iso7010-f003, .box.icon-iso7010-fire-ladder {
+	background-image: url('fire/ISO 7010 F003.svg');
+}
+
+/* Firefighting equipment, collection of */
+.box.icon-ISO7010-F004, .box.icon-iso7010-f004, .box.icon-iso7010-firefighting-equipment {
+	background-image: url('fire/ISO 7010 F004.svg');
+}
+
+/* Fire alarm call point */
+.box.icon-ISO7010-F005, .box.icon-iso7010-f005, .box.icon-iso7010-fire-alarm {
+	background-image: url('fire/ISO 7010 F005.svg');
+}
+
+/* Fire emergency telephone */
+.box.icon-ISO7010-F006, .box.icon-iso7010-f006, .box.icon-iso7010-fire-emergency-telephone {
+	background-image: url('fire/ISO 7010 F006.svg');
+}

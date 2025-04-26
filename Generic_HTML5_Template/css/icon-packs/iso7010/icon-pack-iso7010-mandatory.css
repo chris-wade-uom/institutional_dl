@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* General mandatory action sign */
+.box.icon-ISO7010-M001, .box.icon-iso7010-m001, .box.icon-iso7010-mandatory-action-sign {
+	background-image: url('mandatory/ISO 7010 M001.svg');
+}
+
+/* Refer to instruction manual/booklet */
+.box.icon-ISO7010-M002, .box.icon-iso7010-m002, .box.icon-iso7010-refer-to-instruction {
+	background-image: url('mandatory/ISO 7010 M002.svg');
+}
+
+/* Wear ear protection */
+.box.icon-ISO7010-M003, .box.icon-iso7010-m003, .box.icon-iso7010-wear-ear-protection {
+	background-image: url('mandatory/ISO 7010 M003.svg');
+}
+
+/* Wear eye protection */
+.box.icon-ISO7010-M004, .box.icon-iso7010-m004, .box.icon-iso7010-wear-eye-protection {
+	background-image: url('mandatory/ISO 7010 M004.svg');
+}
+
+/* Connect an earth terminal to the ground */
+.box.icon-ISO7010-M005, .box.icon-iso7010-m005, .box.icon-iso7010-connect-earth-to-ground {
+	background-image: url('mandatory/ISO 7010 M005.svg');
+}
+
+/* Disconnect mains plug from electrical outlet */
+.box.icon-ISO7010-M006, .box.icon-iso7010-m006, .box.icon-iso7010-disconnect-mains-plug {
+	background-image: url('mandatory/ISO 7010 M006.svg');
+}
+
+/* Opaque eye protection must be worn */
+.box.icon-ISO7010-M007, .box.icon-iso7010-m007, .box.icon-iso7010-opaque-eye-protection {
+	background-image: url('mandatory/ISO 7010 M007.svg');
+}
+
+/* Wear safety footwear */
+.box.icon-ISO7010-M008, .box.icon-iso7010-m008, .box.icon-iso7010-wear-safety-footwear {
+	background-image: url('mandatory/ISO 7010 M008.svg');
+}
+
+/* Wear protective gloves */
+.box.icon-ISO7010-M009, .box.icon-iso7010-m009, .box.icon-iso7010-wear-protective-gloves {
+	background-image: url('mandatory/ISO 7010 M009.svg');
+}
+
+/* Wear protective clothing */
+.box.icon-ISO7010-M010, .box.icon-iso7010-m010, .box.icon-iso7010-wear-protective-clothing {
+	background-image: url('mandatory/ISO 7010 M010.svg');
+}
+
+/* Wash your hands */
+.box.icon-ISO7010-M011, .box.icon-iso7010-m011, .box.icon-iso7010-wash-your-hands {
+	background-image: url('mandatory/ISO 7010 M011.svg');
+}
+
+/* Use handrail */
+.box.icon-ISO7010-M012, .box.icon-iso7010-m012, .box.icon-iso7010-use-handrail {
+	background-image: url('mandatory/ISO 7010 M012.svg');
+}
+
+/* Wear a face shield */
+.box.icon-ISO7010-M013, .box.icon-iso7010-m013, .box.icon-iso7010-wear-face-shield {
+	background-image: url('mandatory/ISO 7010 M013.svg');
+}
+
+/* Wear head protection */
+.box.icon-ISO7010-M014, .box.icon-iso7010-m014, .box.icon-iso7010-wear-head-protection {
+	background-image: url('mandatory/ISO 7010 M014.svg');
+}
+
+/* Wear high-visibility clothing */
+.box.icon-ISO7010-M015, .box.icon-iso7010-m015, .box.icon-iso7010-wear-high-visibility-clothing {
+	background-image: url('mandatory/ISO 7010 M015.svg');
+}
+
+/* Wear a mask */
+.box.icon-ISO7010-M016, .box.icon-iso7010-m016, .box.icon-iso7010-wear-a-mask {
+	background-image: url('mandatory/ISO 7010 M016.svg');
+}
+
+/* Wear respiratory protection */
+.box.icon-ISO7010-M017, .box.icon-iso7010-m017, .box.icon-iso7010-wear-respiratory-protection {
+	background-image: url('mandatory/ISO 7010 M017.svg');
+}
+
+/* Wear a safety harness */
+.box.icon-ISO7010-M018, .box.icon-iso7010-m018, .box.icon-iso7010-wear-safety-harness {
+	background-image: url('mandatory/ISO 7010 M018.svg');
+}
+
+/* Wear a welding mask */
+.box.icon-ISO7010-M019, .box.icon-iso7010-m019, .box.icon-iso7010-wear-welding-mask {
+	background-image: url('mandatory/ISO 7010 M019.svg');
+}
+
+/* Wear safety belts */
+.box.icon-ISO7010-M020, .box.icon-iso7010-m020, .box.icon-iso7010-wear-safety-belts {
+	background-image: url('mandatory/ISO 7010 M020.svg');
+}
+
+/* Disconnect before carrying out maintenance or repair */
+.box.icon-ISO7010-M021, .box.icon-iso7010-m021, .box.icon-iso7010-disconnect-before-maintenance {
+	background-image: url('mandatory/ISO 7010 M021.svg');
+}
+
+/* Use barrier cream */
+.box.icon-ISO7010-M022, .box.icon-iso7010-m022, .box.icon-iso7010-use-barrier-cream {
+	background-image: url('mandatory/ISO 7010 M022.svg');
+}
+
+/* Use footbridge */
+.box.icon-ISO7010-M023, .box.icon-iso7010-m023, .box.icon-iso7010-use-footbridge {
+	background-image: url('mandatory/ISO 7010 M023.svg');
+}
+
+/* Use this walkway */
+.box.icon-ISO7010-M024, .box.icon-iso7010-m024, .box.icon-iso7010-use-this-walkway {
+	background-image: url('mandatory/ISO 7010 M024.svg');
+}
+
+/* Protect infants' eyes with opaque eye protection */
+.box.icon-ISO7010-M025, .box.icon-iso7010-m025, .box.icon-iso7010-protect-infant-eyes {
+	background-image: url('mandatory/ISO 7010 M025.svg');
+}
+
+/* Use protective apron */
+.box.icon-ISO7010-M026, .box.icon-iso7010-m026, .box.icon-iso7010-use-protective-apron {
+	background-image: url('mandatory/ISO 7010 M026.svg');
+}

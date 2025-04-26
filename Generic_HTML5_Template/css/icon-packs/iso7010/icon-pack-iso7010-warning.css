@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* General warning sign */
+.box.icon-ISO7010-W001, .box.icon-iso7010-w001, .box.icon-iso7010-warning-sign {
+	background-image: url('warning/ISO 7010 W001.svg');
+}
+
+/* Explosive material */
+.box.icon-ISO7010-W002, .box.icon-iso7010-w002, .box.icon-iso7010-explosive-material {
+	background-image: url('warning/ISO 7010 W002.svg');
+}
+
+/* Radioactive material or ionizing radiation */
+.box.icon-ISO7010-W003, .box.icon-iso7010-w003, .box.icon-iso7010-radioactive-material {
+	background-image: url('warning/ISO 7010 W003.svg');
+}
+
+/* Laser beam */
+.box.icon-ISO7010-W004, .box.icon-iso7010-w004, .box.icon-iso7010-laser-beam {
+	background-image: url('warning/ISO 7010 W004.svg');
+}
+
+/* Non-ionizing radiation */
+.box.icon-ISO7010-W005, .box.icon-iso7010-w005, .box.icon-iso7010-non-ionizing-radiation {
+	background-image: url('warning/ISO 7010 W005.svg');
+}
+
+/* Magnetic field */
+.box.icon-ISO7010-W006, .box.icon-iso7010-w006, .box.icon-iso7010-magnetic-field {
+	background-image: url('warning/ISO 7010 W006.svg');
+}
+
+/* Floor-level obstacle */
+.box.icon-ISO7010-W007, .box.icon-iso7010-w007, .box.icon-iso7010-floor-level-obstacle {
+	background-image: url('warning/ISO 7010 W007.svg');
+}
+
+/* Drop (fall) */
+.box.icon-ISO7010-W008, .box.icon-iso7010-w008, .box.icon-iso7010-drop {
+	background-image: url('warning/ISO 7010 W008.svg');
+}
+
+/* Biological hazard */
+.box.icon-ISO7010-W009, .box.icon-iso7010-w009, .box.icon-iso7010-biological-hazard {
+	background-image: url('warning/ISO 7010 W009.svg');
+}
+
+/* Low temperature/freezing conditions */
+.box.icon-ISO7010-W010, .box.icon-iso7010-w010, .box.icon-iso7010-low-temperature {
+	background-image: url('warning/ISO 7010 W010.svg');
+}
+
+/* Slippery surface */
+.box.icon-ISO7010-W011, .box.icon-iso7010-w011, .box.icon-iso7010-slippery-surface {
+	background-image: url('warning/ISO 7010 W011.svg');
+}
+
+/* Electricity */
+.box.icon-ISO7010-W012, .box.icon-iso7010-w012, .box.icon-iso7010-electricity {
+	background-image: url('warning/ISO 7010 W012.svg');
+}
+
+/* Guard dog */
+.box.icon-ISO7010-W013, .box.icon-iso7010-w013, .box.icon-iso7010-guard-dog {
+	background-image: url('warning/ISO 7010 W013.svg');
+}
+
+/* Forklift trucks and other industrial vehicles */
+.box.icon-ISO7010-W014, .box.icon-iso7010-w014, .box.icon-iso7010-industrial-vehicles {
+	background-image: url('warning/ISO 7010 W014.svg');
+}
+
+/* Overhead load */
+.box.icon-ISO7010-W015, .box.icon-iso7010-w015, .box.icon-iso7010-overhead-load {
+	background-image: url('warning/ISO 7010 W015.svg');
+}
+
+/* Toxic material */
+.box.icon-ISO7010-W016, .box.icon-iso7010-w016, .box.icon-iso7010-toxic-material {
+	background-image: url('warning/ISO 7010 W016.svg');
+}
+
+/* Hot surface */
+.box.icon-ISO7010-W017, .box.icon-iso7010-w017, .box.icon-iso7010-hot-surface {
+	background-image: url('warning/ISO 7010 W017.svg');
+}
+
+/* Automatic start-up */
+.box.icon-ISO7010-W018, .box.icon-iso7010-w018, .box.icon-iso7010-automatic-start-up {
+	background-image: url('warning/ISO 7010 W018.svg');
+}
+
+/* Crushing */
+.box.icon-ISO7010-W019, .box.icon-iso7010-w019, .box.icon-iso7010-crushing {
+	background-image: url('warning/ISO 7010 W019.svg');
+}
+
+/* Overhead obstacle */
+.box.icon-ISO7010-W020, .box.icon-iso7010-w020, .box.icon-iso7010-overhead-obstacle {
+	background-image: url('warning/ISO 7010 W020.svg');
+}
+
+/* Flammable material */
+.box.icon-ISO7010-W021, .box.icon-iso7010-w021, .box.icon-iso7010-flammable-material {
+	background-image: url('warning/ISO 7010 W021.svg');
+}
+
+/* Sharp element */
+.box.icon-ISO7010-W022, .box.icon-iso7010-w022, .box.icon-iso7010-sharp-element {
+	background-image: url('warning/ISO 7010 W022.svg');
+}
+
+/* Corrosive substance */
+.box.icon-ISO7010-W023, .box.icon-iso7010-w023, .box.icon-iso7010-corrosive-substance {
+	background-image: url('warning/ISO 7010 W023.svg');
+}
+
+/* Crushing of hands */
+.box.icon-ISO7010-W024, .box.icon-iso7010-w024, .box.icon-iso7010-crushing-of-hands {
+	background-image: url('warning/ISO 7010 W024.svg');
+}
+
+/* Counterrotating rollers */
+.box.icon-ISO7010-W025, .box.icon-iso7010-w025, .box.icon-iso7010-counterrotating-rollers {
+	background-image: url('warning/ISO 7010 W025.svg');
+}
+
+/* Battery charging */
+.box.icon-ISO7010-W026, .box.icon-iso7010-w026, .box.icon-iso7010-battery-charging {
+	background-image: url('warning/ISO 7010 W026.svg');
+}
+
+/* Optical radiation */
+.box.icon-ISO7010-W027, .box.icon-iso7010-w027, .box.icon-iso7010-optical-radiation {
+	background-image: url('warning/ISO 7010 W027.svg');
+}
+
+/* Oxidizing substance */
+.box.icon-ISO7010-W028, .box.icon-iso7010-w028, .box.icon-iso7010-oxidizing-substance {
+	background-image: url('warning/ISO 7010 W028.svg');
+}
+
+/* Pressurized cylinder */
+.box.icon-ISO7010-W029, .box.icon-iso7010-w029, .box.icon-iso7010-pressurized-cylinder {
+	background-image: url('warning/ISO 7010 W029.svg');
+}
